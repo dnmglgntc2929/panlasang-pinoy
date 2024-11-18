@@ -1,0 +1,30 @@
+.App{
+    width: 100%;
+    min-height:100vh;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+      
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+  }
+  
+  
+  .card {
+    background-color: var(--card-background-color) !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    color: var(--primary-text-color) !important;
+  }
+
+  .input {
+    color: var(--primary-text-color) !important;
+    border-color: var(--input-border-color) !important;
+  }
+  
+  
