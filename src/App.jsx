@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
-import Routing from './routes/Routing'
+import Routing from "./routes/Routing";
 
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
@@ -20,29 +19,21 @@ const theme = createTheme({
       default: "#e4f0e2",
       paper: "#FFF455",
     },
-
-    
   },
 
   typography: {
     fontFamily: ["Roboto", "sans-serif"].join(","),
-    
   },
 });
 
-
 function App() {
- 
-
-  return (  
-    <div className='App'>
-
+  return (
+    <div className="App">
       <ThemeProvider theme={theme}>
         <Routing />
       </ThemeProvider>
-     
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
