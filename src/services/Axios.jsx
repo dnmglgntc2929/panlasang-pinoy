@@ -35,15 +35,26 @@ export const login = async (email, password) => {
 
 export const searchIngredients = async (searchQuery) => {
   try {
-    const response = await Axios.get(`http://localhost:${port}/api/search?query=${searchQuery}`);
-    return response.data;  // Return search results
+    const response = await Axios.get(
+      `http://localhost:${port}/api/search?query=${searchQuery}`
+    );
+    return response.data; // Return search results
   } catch (error) {
     console.error("Error fetching search results", error);
     throw new Error("Search request failed");
   }
 };
-
-
+export const gpt4 = async (message) => {
+  try {
+    const response = await Axios.post(`http://localhost:${port}/api/gpt4`, {
+      prompt: message,
+    });
+    return response.data.data;
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+};
 
 // const tokenLoggedOut = () => {
 //   try{
@@ -56,5 +67,6 @@ export const searchIngredients = async (searchQuery) => {
 export default {
   signup,
   login,
-  searchIngredients
+  searchIngredients,
+  gpt4,
 };
