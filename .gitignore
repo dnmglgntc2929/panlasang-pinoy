@@ -7,13 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules and build files
 node_modules
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -23,8 +24,60 @@ dist-ssr
 *.sln
 *.sw?
 
-#env
+# Python compiled files
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.pipenv/
+.poetry/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
 .env
+.env.*
 
+# macOS system files
+.DS_Store
 
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
 
+# Large data files
+*.sqlite3
+*.dll
+*.lib
+*.exe
+*.so
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+.cache
+nosetests.xml
+coverage.xml
+*.coveralls
+
+# Other IDE configurations
+.vscode/
+.idea/
