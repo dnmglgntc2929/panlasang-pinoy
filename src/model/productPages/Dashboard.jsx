@@ -25,6 +25,8 @@ const Dashboard = () => {
   const [selectedDish, setSelectedDish] = useState(null); // Selected dish for recipe modal
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+  const [expandedRecipes, setExpandedRecipes] = useState([]);
+
 
   // Animal data
   const animalDishes = {
@@ -1054,13 +1056,47 @@ const Dashboard = () => {
   };
 
   const handleSearchSubmit = async () => {
+    if (!searchQuery.trim()) {
+        alert("Please enter a search query.");
+        return;
+    }
+
     try {
-      const results = await searchIngredients(searchQuery); // Call the search API from Axios file
-      setSearchResults(results); // Set the search results
+        const response = await axios.post(
+            "http://127.0.0.1:5000/api/recipes/prompt_search",
+            { prompt: searchQuery }
+        );
+
+        if (response.status === 200) {
+            setSearchResults(response.data);
+        } else {
+            setSearchResults([]);
+        }
     } catch (error) {
-      console.error("Error fetching search results", error);
+        console.error("Error fetching search results", error);
+        if (error.response) {
+            console.error("Server Error:", error.response.status, error.response.data);
+        } else if (error.request) {
+            console.error("Network Error:", error.request);
+        } else {
+            console.error("Error", error.message);
+        }
+        setSearchResults([]);
+    }
+};
+
+  
+  const handleRecipeClick = (index) => {
+    if (expandedRecipes.includes(index)) {
+      // Collapse the recipe if it's already expanded
+      setExpandedRecipes(expandedRecipes.filter((i) => i !== index));
+    } else {
+      // Expand the recipe
+      setExpandedRecipes([...expandedRecipes, index]);
     }
   };
+  
+
 
   return (
     <div>
@@ -1177,49 +1213,80 @@ const Dashboard = () => {
             </Box>
           </Cards>
         </Grid>
+        </Grid>
 
         {/* Card 4: Search Results */}
         <Grid item xs={12} md={8}>
-          <Cards
-            title="Search Results"
-            customStyles={{
-              height: "400px",
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              flexDirection: "column",
-            }}
-          >
-            {searchResults.length > 0 ? (
-              <Box
-                sx={{
-                  backgroundColor: "#f5f5f5",
+        <Cards
+        title="Search Results"
+        customStyles={{
+          height: "400px",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column", // Enable scrolling if content overflows
+        }}
+  >
+    {searchResults.length > 0 ? (
+      <Box
+        sx={{
+          backgroundColor: "#f5f5f5",
                   padding: "16px",
                   borderRadius: "8px",
                   boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
                   width: "100%",
                   textAlign: "center",
-                }}
-              >
-                {searchResults.map((result, index) => (
-                  <Typography
-                    key={index}
-                    variant="body1"
-                    sx={{ marginBottom: "8px" }}
-                  >
-                    {result.name}: {result.description}
-                  </Typography>
-                ))}
+        }}
+      >
+        {searchResults.map((result, index) => (
+          <Box key={index} sx={{ marginBottom: "16px", textAlign: "left" }}>
+            <Typography
+              variant="h6"
+              sx={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}
+              onClick={() => handleRecipeClick(index)}
+            >
+              {result.name}
+            </Typography>
+            {expandedRecipes.includes(index) && (
+              <Box sx={{ paddingLeft: "16px" }}>
+                <Typography variant="body1" gutterBottom>
+                  {result.description}
+                </Typography>
+                {result.ingredients && result.ingredients.length > 0 && (
+                  <>
+                    <Typography variant="subtitle1">Ingredients:</Typography>
+                    <ul>
+                      {result.ingredients.map((ingredient, idx) => (
+                        <li key={idx}>{ingredient}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+                {result.steps && result.steps.length > 0 && (
+                  <>
+                    <Typography variant="subtitle1">Steps:</Typography>
+                    <ol>
+                      {result.steps.map((step, idx) => (
+                        <li key={idx}>{step}</li>
+                      ))}
+                    </ol>
+                  </>
+                )}
               </Box>
-            ) : (
-              <Typography variant="body2">
-                No results found. Try another search.
-              </Typography>
             )}
-          </Cards>
-        </Grid>
-      </Grid>
+          </Box>
+        ))}
+      </Box>
+    ) : (
+      <Typography variant="body2">
+        No results found. Try another search.
+      </Typography>
+    )}
+  </Cards>
+</Grid>
+
+
 
       {/* Modal for Animal Dishes */}
       <Modal open={openModal} onClose={handleCloseModal}>
