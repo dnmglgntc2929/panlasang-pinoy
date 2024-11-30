@@ -1,1386 +1,1326 @@
 [
-    {
-      "id": 1,
-      "name": "Adobo",
-      "description": "A savory and slightly sour pork or chicken dish stewed in soy sauce and vinegar.",
-      "ingredients": [
-        "1 kg pork belly, cut into chunks",
-        "1/2 cup soy sauce",
-        "1/2 cup vinegar",
-        "6 cloves garlic, crushed",
-        "3 bay leaves",
-        "1 teaspoon black peppercorns",
-        "1 cup water",
-        "Salt to taste"
-      ],
-      "steps": [
-        "In a pot, combine pork, soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
-        "Pour in water and bring to a boil. Lower heat and simmer for 45 minutes to 1 hour until meat is tender.",
-        "Remove the pork from the sauce and fry in a pan until browned.",
-        "Return the fried pork to the sauce and simmer for an additional 10 minutes.",
-        "Adjust seasoning with salt if necessary. Serve hot with steamed rice."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 2,
-      "name": "Sinigang na Baboy",
-      "description": "A sour tamarind soup with pork and assorted vegetables.",
-      "ingredients": [
-        "1 kg pork ribs or belly, cut into pieces",
-        "2 liters water",
-        "1 large onion, quartered",
-        "2 tomatoes, quartered",
-        "200 grams tamarind pulp or sinigang mix",
-        "1 radish, sliced",
-        "6 okra pods",
-        "1 cup string beans, cut into 2-inch pieces",
-        "2 eggplants, sliced",
-        "1 bunch kangkong (water spinach)",
-        "Salt or fish sauce to taste"
-      ],
-      "steps": [
-        "In a large pot, boil water and add pork, onion, and tomatoes. Simmer until pork is tender.",
-        "Add tamarind pulp or sinigang mix and stir well.",
-        "Add radish, okra, string beans, and eggplant. Cook until vegetables are tender.",
-        "Add kangkong leaves and simmer for 2 more minutes.",
-        "Season with salt or fish sauce to taste. Serve hot with rice."
-      ],
-      "dish_type": "soup",
-      "taste_profile": "sour"
-    },
-    {
-      "id": 3,
-      "name": "Kare-Kare",
-      "description": "A rich peanut-based stew with oxtail and vegetables.",
-      "ingredients": [
-        "1 kg oxtail (or beef tripe/beef chunks)",
-        "2 tablespoons annatto seeds soaked in 1/4 cup water",
-        "1 cup peanut butter",
-        "1/4 cup ground toasted rice",
-        "2 eggplants, sliced",
-        "1 bunch bok choy",
-        "1 cup string beans, cut into 2-inch pieces",
-        "1 banana blossom, sliced (optional)",
-        "Salt and pepper to taste",
-        "Shrimp paste (bagoong) for serving"
-      ],
-      "steps": [
-        "Boil oxtail until tender, skimming off any scum that rises.",
-        "In a separate pan, sauté annatto water to extract color.",
-        "Add peanut butter and ground toasted rice to the broth, stirring until well combined.",
-        "Add annatto extract to the pot and mix well.",
-        "Add eggplant, banana blossom, and string beans. Cook until vegetables are tender.",
-        "Season with salt and pepper. Add bok choy and simmer for 2 more minutes.",
-        "Serve hot with shrimp paste on the side."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 4,
-      "name": "Lechon Kawali",
-      "description": "Crispy deep-fried pork belly served with dipping sauce.",
-      "ingredients": [
-        "1 kg pork belly",
-        "1 tablespoon salt",
-        "1 teaspoon peppercorns",
-        "3 bay leaves",
-        "Water for boiling",
-        "Oil for deep frying"
-      ],
-      "steps": [
-        "In a pot, boil pork belly with salt, peppercorns, and bay leaves until tender.",
-        "Remove pork and let it dry completely. Refrigerate for a few hours or overnight for better results.",
-        "Heat oil in a deep fryer or deep pan.",
-        "Carefully deep-fry the pork belly until golden and crispy.",
-        "Let it rest for a few minutes before chopping. Serve with lechon sauce or spiced vinegar."
-      ],
-      "dish_type": "main course",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 5,
-      "name": "Tinolang Manok",
-      "description": "A ginger-based chicken soup with green papaya and chili leaves.",
-      "ingredients": [
-        "1 kg chicken, cut into serving pieces",
-        "1 medium green papaya, peeled and sliced",
-        "2 thumbs ginger, julienned",
-        "1 onion, sliced",
-        "4 cloves garlic, minced",
-        "2 tablespoons fish sauce",
-        "5 cups water",
-        "1 cup chili leaves or malunggay leaves",
-        "Salt and pepper to taste"
-      ],
-      "steps": [
-        "In a pot, sauté garlic, onion, and ginger until fragrant.",
-        "Add chicken pieces and cook until lightly browned.",
-        "Pour in fish sauce and water. Bring to a boil and simmer until chicken is tender.",
-        "Add green papaya slices and cook until tender.",
-        "Add chili leaves and simmer for 2 more minutes.",
-        "Season with salt and pepper. Serve hot."
-      ],
-      "dish_type": "soup",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 6,
-      "name": "Pancit Canton",
-      "description": "Stir-fried egg noodles with vegetables, meat, and shrimp.",
-      "ingredients": [
-        "500 grams pancit canton noodles",
-        "200 grams chicken breast, sliced",
-        "200 grams shrimp, peeled and deveined",
-        "1 cup cabbage, shredded",
-        "1 carrot, julienned",
-        "1 bell pepper, sliced",
-        "1 onion, sliced",
-        "4 cloves garlic, minced",
-        "1/4 cup soy sauce",
-        "2 tablespoons oyster sauce",
-        "2 cups chicken broth",
-        "Salt and pepper to taste",
-        "Calamansi or lemon wedges for serving"
-      ],
-      "steps": [
-        "In a wok, sauté garlic and onion until translucent.",
-        "Add chicken and cook until no longer pink. Add shrimp and cook until opaque.",
-        "Add carrots, bell pepper, and cabbage. Stir-fry for 2 minutes.",
-        "Pour in chicken broth, soy sauce, and oyster sauce. Bring to a boil.",
-        "Add pancit canton noodles and cook until noodles absorb the liquid and are tender.",
-        "Season with salt and pepper. Serve hot with calamansi or lemon wedges."
-      ],
-      "dish_type": "noodle dish",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 7,
-      "name": "Bulalo",
-      "description": "A hearty beef marrow stew with corn and vegetables.",
-      "ingredients": [
-        "1 kg beef shanks with bone marrow",
-        "2 liters water",
-        "1 onion, quartered",
-        "2 corn on the cob, cut into pieces",
-        "1 bunch pechay (bok choy)",
-        "2 potatoes, quartered",
-        "1 tablespoon peppercorns",
-        "Fish sauce or salt to taste"
-      ],
-      "steps": [
-        "In a large pot, boil beef shanks, onion, and peppercorns. Simmer until meat is tender, about 2-3 hours.",
-        "Add corn and potatoes. Cook until vegetables are tender.",
-        "Season with fish sauce or salt to taste.",
-        "Add pechay and simmer for 2 more minutes.",
-        "Serve hot with rice and fish sauce with chili on the side."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 8,
-      "name": "Bicol Express",
-      "description": "Spicy pork stew cooked in coconut milk and chili peppers.",
-      "ingredients": [
-        "1 kg pork belly, sliced",
-        "2 cups coconut milk",
-        "1 cup coconut cream",
-        "5 cloves garlic, minced",
-        "1 onion, chopped",
-        "3 tablespoons shrimp paste (bagoong)",
-        "10 pieces bird's eye chilies, sliced (adjust to taste)",
-        "Salt to taste"
-      ],
-      "steps": [
-        "In a pan, sauté garlic and onion until fragrant.",
-        "Add pork belly and cook until lightly browned.",
-        "Stir in shrimp paste and cook for 2 minutes.",
-        "Pour in coconut milk and bring to a boil. Simmer until pork is tender.",
-        "Add chilies and coconut cream. Continue to simmer until sauce thickens.",
-        "Season with salt if necessary. Serve hot with rice."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "spicy"
-    },
-    {
-      "id": 9,
-      "name": "Inihaw na Liempo",
-      "description": "Grilled pork belly marinated in a savory sauce.",
-      "ingredients": [
-        "1 kg pork belly slices",
-        "1/2 cup soy sauce",
-        "1/4 cup calamansi juice or lemon juice",
-        "4 cloves garlic, minced",
-        "2 tablespoons brown sugar",
-        "1 teaspoon black pepper",
-        "Bamboo skewers (optional)"
-      ],
-      "steps": [
-        "In a bowl, combine soy sauce, calamansi juice, garlic, brown sugar, and black pepper.",
-        "Marinate pork belly in the mixture for at least 2 hours or overnight.",
-        "Preheat grill to medium heat.",
-        "Skewer pork belly slices if desired. Grill each side until cooked through and slightly charred.",
-        "Baste with remaining marinade while grilling. Serve hot with spiced vinegar."
-      ],
-      "dish_type": "grilled",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 10,
-      "name": "Laing",
-      "description": "Taro leaves cooked in coconut milk with shrimp paste and chilies.",
-      "ingredients": [
-        "200 grams dried taro leaves",
-        "2 cups coconut milk",
-        "1 cup coconut cream",
-        "3 tablespoons shrimp paste (bagoong)",
-        "5 cloves garlic, minced",
-        "1 onion, chopped",
-        "Thumb-sized ginger, sliced",
-        "5 pieces red chilies, sliced",
-        "Salt to taste"
-      ],
-      "steps": [
-        "In a pot, sauté garlic, onion, and ginger until fragrant.",
-        "Add shrimp paste and cook for 2 minutes.",
-        "Pour in coconut milk and bring to a boil.",
-        "Add taro leaves, pressing down to absorb the liquid. Do not stir to avoid itching sensation.",
-        "Simmer until taro leaves are tender and liquid is reduced.",
-        "Add coconut cream and chilies. Cook for another 10 minutes until sauce thickens.",
-        "Season with salt if necessary. Serve with rice."
-      ],
-      "dish_type": "side dish",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 11,
-      "name": "Kaldereta",
-      "description": "A spicy tomato-based stew with beef and vegetables.",
-      "ingredients": [
-        "1 kg beef cubes",
-        "2 cups beef broth or water",
-        "1 cup tomato sauce",
-        "1/2 cup liver spread",
-        "2 potatoes, cubed",
-        "2 carrots, sliced",
-        "1 red bell pepper, sliced",
-        "1 green bell pepper, sliced",
-        "1 onion, chopped",
-        "4 cloves garlic, minced",
-        "2 tablespoons cooking oil",
-        "Salt and pepper to taste",
-        "Red chili flakes (optional, for spice)"
-      ],
-      "steps": [
-        "In a pot, heat oil and sauté garlic and onion until fragrant.",
-        "Add beef cubes and cook until browned.",
-        "Pour in tomato sauce and beef broth. Bring to a boil and simmer until beef is tender.",
-        "Add liver spread and mix well.",
-        "Add potatoes, carrots, and bell peppers. Cook until vegetables are tender.",
-        "Season with salt, pepper, and chili flakes if desired.",
-        "Serve hot with steamed rice."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 12,
-      "name": "Paksiw na Pata",
-      "description": "Pork hock stewed in vinegar and soy sauce with banana blossoms.",
-      "ingredients": [
-        "1 kg pork hock (pata), sliced",
-        "1/2 cup vinegar",
-        "1/2 cup soy sauce",
-        "5 cloves garlic, crushed",
-        "2 tablespoons brown sugar",
-        "1 cup dried banana blossoms",
-        "1 teaspoon peppercorns",
-        "3 bay leaves",
-        "Water as needed",
-        "Salt to taste"
-      ],
-      "steps": [
-        "In a pot, combine pork hock, vinegar, soy sauce, garlic, brown sugar, peppercorns, and bay leaves.",
-        "Add enough water to cover the meat. Bring to a boil and simmer until pork is tender.",
-        "Add dried banana blossoms and cook for another 15 minutes.",
-        "Adjust seasoning with salt if necessary.",
-        "Serve hot with steamed rice."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 13,
-      "name": "Pinakbet",
-      "description": "Mixed vegetables steamed in fish sauce with pork.",
-      "ingredients": [
-        "200 grams pork belly, sliced",
-        "1 eggplant, sliced",
-        "1 bitter melon (ampalaya), sliced",
-        "200 grams squash, cubed",
-        "100 grams okra",
-        "1 cup long beans (sitaw), cut into 2-inch pieces",
-        "2 tomatoes, chopped",
-        "1 onion, chopped",
-        "3 cloves garlic, minced",
-        "3 tablespoons shrimp paste (bagoong)",
-        "Salt and pepper to taste"
-      ],
-      "steps": [
-        "In a pan, sauté garlic, onion, and tomatoes until soft.",
-        "Add pork belly and cook until lightly browned.",
-        "Stir in shrimp paste and cook for 2 minutes.",
-        "Add squash and a little water. Cover and simmer for 5 minutes.",
-        "Add the remaining vegetables. Cover and cook until all are tender.",
-        "Season with salt and pepper if necessary. Serve hot."
-      ],
-      "dish_type": "vegetable dish",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 14,
-      "name": "Ginataang Gulay",
-      "description": "Vegetables cooked in coconut milk.",
-      "ingredients": [
-        "200 grams squash, cubed",
-        "100 grams string beans, cut into 2-inch pieces",
-        "1 eggplant, sliced",
-        "1 cup coconut milk",
-        "1 onion, chopped",
-        "3 cloves garlic, minced",
-        "2 tablespoons shrimp paste (bagoong)",
-        "1 tablespoon cooking oil",
-        "Salt and pepper to taste"
-      ],
-      "steps": [
-        "In a pan, heat oil and sauté garlic and onion until fragrant.",
-        "Add shrimp paste and cook for 2 minutes.",
-        "Add squash and coconut milk. Simmer for 5 minutes.",
-        "Add eggplant and string beans. Cook until vegetables are tender.",
-        "Season with salt and pepper. Serve hot with rice."
-      ],
-      "dish_type": "vegetable dish",
-      "taste_profile": "creamy"
-    },
-    {
-      "id": 15,
-      "name": "Arroz Caldo",
-      "description": "A comforting rice porridge with chicken and ginger.",
-      "ingredients": [
-        "1 cup glutinous rice",
-        "500 grams chicken pieces",
-        "2 thumbs ginger, julienned",
-        "1 onion, chopped",
-        "4 cloves garlic, minced",
-        "6 cups chicken broth",
-        "2 tablespoons fish sauce",
-        "Salt and pepper to taste",
-        "Spring onions and fried garlic for garnish",
-        "Calamansi or lemon wedges for serving"
-      ],
-      "steps": [
-        "In a pot, sauté garlic, onion, and ginger until fragrant.",
-        "Add chicken pieces and cook until no longer pink.",
-        "Add glutinous rice and stir for 2 minutes.",
-        "Pour in chicken broth and fish sauce. Bring to a boil.",
-        "Simmer while stirring occasionally until rice is fully cooked and porridge has thickened.",
-        "Season with salt and pepper.",
-        "Serve hot topped with spring onions and fried garlic, with calamansi on the side."
-      ],
-      "dish_type": "porridge",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 16,
-      "name": "Lumpiang Shanghai",
-      "description": "Deep-fried spring rolls filled with ground pork and vegetables.",
-      "ingredients": [
-        "500 grams ground pork",
-        "1 carrot, finely chopped",
-        "1 onion, finely chopped",
-        "2 cloves garlic, minced",
-        "1 egg",
-        "Salt and pepper to taste",
-        "Lumpia wrappers",
-        "Oil for frying",
-        "Sweet and sour sauce for dipping"
-      ],
-      "steps": [
-        "In a bowl, mix ground pork, carrot, onion, garlic, egg, salt, and pepper.",
-        "Wrap a tablespoon of filling in each lumpia wrapper.",
-        "Heat oil in a deep pan. Fry lumpia until golden brown.",
-        "Drain on paper towels. Serve hot with dipping sauce."
-      ],
-      "dish_type": "appetizer",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 17,
-      "name": "Sinigang na Hipon",
-      "description": "A sour tamarind soup with shrimp and vegetables.",
-      "ingredients": [
-        "500 grams large shrimp, trimmed",
-        "2 liters water",
-        "1 large onion, quartered",
-        "2 tomatoes, quartered",
-        "200 grams tamarind pulp or sinigang mix",
-        "1 radish, sliced",
-        "6 okra pods",
-        "1 cup string beans, cut into 2-inch pieces",
-        "2 eggplants, sliced",
-        "1 bunch kangkong (water spinach)",
-        "Salt or fish sauce to taste"
-      ],
-      "steps": [
-        "Boil water in a pot. Add onion and tomatoes. Simmer for 5 minutes.",
-        "Add tamarind pulp or sinigang mix. Stir well.",
-        "Add radish, okra, string beans, and eggplant. Cook until vegetables are tender.",
-        "Add shrimp and cook until pink and opaque.",
-        "Add kangkong leaves and simmer for 2 more minutes.",
-        "Season with salt or fish sauce. Serve hot."
-      ],
-      "dish_type": "soup",
-      "taste_profile": "sour"
-    },
-    {
-      "id": 18,
-      "name": "Tortang Talong",
-      "description": "Grilled eggplant omelette with ground meat.",
-      "ingredients": [
-        "4 medium eggplants",
-        "200 grams ground pork or beef",
-        "4 eggs, beaten",
-        "1 onion, chopped",
-        "2 cloves garlic, minced",
-        "Salt and pepper to taste",
-        "Oil for frying",
-        "Ketchup or dipping sauce (optional)"
-      ],
-      "steps": [
-        "Grill or broil eggplants until skin is charred. Let cool and peel off skin, keeping the stem intact.",
-        "Flatten the eggplants using a fork.",
-        "In a pan, sauté garlic and onion. Add ground meat and cook until browned. Season with salt and pepper.",
-        "Place some cooked meat on top of each flattened eggplant.",
-        "Dip the eggplant with meat into the beaten eggs, coating well.",
-        "Heat oil in a pan and fry the eggplant until golden brown on both sides.",
-        "Serve hot with ketchup or preferred dipping sauce."
-      ],
-      "dish_type": "main course",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 19,
-      "name": "Bopis",
-      "description": "Spicy minced pork lungs and heart sautéed in chilies and onions.",
-      "ingredients": [
-        "500 grams pork lungs and heart, cleaned and minced",
-        "1 onion, chopped",
-        "5 cloves garlic, minced",
-        "2 tablespoons vinegar",
-        "2 tablespoons soy sauce",
-        "3 pieces red chilies, sliced",
-        "1 red bell pepper, chopped",
-        "Salt and pepper to taste",
-        "Oil for sautéing"
-      ],
-      "steps": [
-        "Boil minced pork lungs and heart until tender. Drain and set aside.",
-        "In a pan, heat oil and sauté garlic and onion until fragrant.",
-        "Add minced organs and cook for 5 minutes.",
-        "Pour in vinegar and soy sauce. Do not stir for a few minutes to cook off the vinegar.",
-        "Add chilies and bell pepper. Stir and cook for another 5 minutes.",
-        "Season with salt and pepper. Serve hot with rice."
-      ],
-      "dish_type": "main course",
-      "taste_profile": "spicy"
-    },
-    {
-      "id": 20,
-      "name": "Sisig",
-      "description": "Chopped pig's head and liver seasoned with calamansi and chili peppers.",
-      "ingredients": [
-        "1 kg pig's face (snout and ears)",
-        "200 grams chicken liver",
-        "3 tablespoons soy sauce",
-        "1 onion, finely chopped",
-        "5 calamansi or 2 limes",
-        "3 red chilies, chopped",
-        "1 teaspoon ground black pepper",
-        "Salt to taste",
-        "Mayonnaise (optional)",
-        "Oil for grilling and sautéing"
-      ],
-      "steps": [
-        "Boil pig's face until tender. Grill until crispy then chop into small pieces.",
-        "Grill chicken liver until cooked and chop finely.",
-        "In a pan, sauté onions until translucent.",
-        "Add chopped meat and liver. Stir in soy sauce and cook for 5 minutes.",
-        "Season with calamansi juice, chilies, salt, and pepper.",
-        "Optional: Add mayonnaise for a creamy texture.",
-        "Serve on a sizzling plate if available."
-      ],
-      "dish_type": "appetizer",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 21,
-      "name": "Ginisang Monggo",
-      "description": "Mung bean stew with spinach and pork.",
-      "ingredients": [
-        "1 cup mung beans (monggo), rinsed",
-        "200 grams pork belly, sliced",
-        "1 cup spinach or bitter melon leaves",
-        "2 tomatoes, chopped",
-        "1 onion, chopped",
-        "3 cloves garlic, minced",
-        "4 cups water",
-        "Fish sauce or salt to taste",
-        "Oil for sautéing"
-      ],
-      "steps": [
-        "Boil mung beans in water until soft. Set aside.",
-        "In a pan, sauté garlic, onion, and tomatoes until soft.",
-        "Add pork and cook until browned.",
-        "Pour in the cooked mung beans with its liquid. Simmer for 10 minutes.",
-        "Add spinach or bitter melon leaves and cook until wilted.",
-        "Season with fish sauce or salt. Serve hot."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 22,
-      "name": "Chicken Inasal",
-      "description": "Grilled chicken marinated in lemongrass and annatto oil.",
-      "ingredients": [
-        "1 kg chicken pieces",
-        "1/2 cup calamansi juice",
-        "1/4 cup ginger, grated",
-        "1/4 cup garlic, minced",
-        "1/4 cup lemongrass, minced",
-        "1/2 cup annatto oil",
-        "1/4 cup brown sugar",
-        "Salt and pepper to taste",
-        "Bamboo skewers (optional)"
-      ],
-      "steps": [
-        "In a bowl, mix calamansi juice, ginger, garlic, lemongrass, brown sugar, salt, and pepper.",
-        "Marinate chicken pieces in the mixture for at least 2 hours or overnight.",
-        "Preheat grill to medium heat.",
-        "Skewer chicken pieces if desired. Grill while basting with annatto oil until cooked through.",
-        "Serve hot with rice and dipping sauce."
-      ],
-      "dish_type": "grilled",
-      "taste_profile": "savory"
-    },
-   
-
-    
-  
-    {
-      "id": 23,
-      "name": "Binagoongan",
-      "description": "Pork stewed in shrimp paste and tomatoes.",
-      "ingredients": [
-        "1 kg pork belly, cut into cubes",
-        "3 tablespoons shrimp paste (bagoong)",
-        "2 tomatoes, chopped",
-        "1 onion, chopped",
-        "4 cloves garlic, minced",
-        "1 tablespoon vinegar",
-        "1 teaspoon sugar (optional)",
-        "1 cup water",
-        "Oil for sautéing"
-      ],
-      "steps": [
-        "Heat oil in a pan and sauté garlic and onion until fragrant.",
-        "Add tomatoes and cook until soft.",
-        "Add pork belly and cook until lightly browned.",
-        "Stir in shrimp paste and cook for 3 minutes.",
-        "Pour in vinegar and let it simmer without stirring for a few minutes.",
-        "Add water and sugar if using. Simmer until pork is tender and sauce thickens.",
-        "Adjust seasoning as needed. Serve hot with rice."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 24,
-      "name": "Longganisa",
-      "description": "Filipino sweet or garlicky pork sausages.",
-      "ingredients": [
-        "1 kg ground pork (with some fat)",
-        "1/2 cup brown sugar",
-        "1/4 cup vinegar",
-        "1 head garlic, minced",
-        "1 tablespoon paprika",
-        "1 teaspoon ground black pepper",
-        "1 tablespoon salt",
-        "Sausage casings or wax paper"
-      ],
-      "steps": [
-        "In a large bowl, combine ground pork, brown sugar, vinegar, minced garlic, paprika, black pepper, and salt.",
-        "Mix thoroughly until well combined.",
-        "Stuff the mixture into sausage casings or shape into logs using wax paper.",
-        "Refrigerate overnight to allow flavors to meld.",
-        "To cook, place sausages in a pan with a little water. Simmer until water evaporates, then add oil and fry until browned.",
-        "Serve hot with garlic rice and eggs."
-      ],
-      "dish_type": "breakfast",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 25,
-      "name": "Crispy Pata",
-      "description": "Deep-fried pork knuckles served with soy-vinegar dip.",
-      "ingredients": [
-        "1 whole pork leg (pata), cleaned",
-        "1 tablespoon salt",
-        "1 teaspoon whole black peppercorns",
-        "3 bay leaves",
-        "1 head garlic, crushed",
-        "Water for boiling",
-        "Oil for deep-frying",
-        "For the dipping sauce:",
-        "1/2 cup vinegar",
-        "1/4 cup soy sauce",
-        "1 small onion, chopped",
-        "2 cloves garlic, minced",
-        "1 red chili, sliced (optional)"
-      ],
-      "steps": [
-        "In a large pot, boil pork leg with salt, peppercorns, bay leaves, and garlic until meat is tender (about 1.5 to 2 hours).",
-        "Remove the pork leg from the pot and allow it to dry completely. For best results, refrigerate overnight.",
-        "Heat oil in a deep fryer or large pot.",
-        "Carefully deep-fry the pork leg until skin is crispy and golden brown.",
-        "Prepare the dipping sauce by mixing vinegar, soy sauce, onion, garlic, and chili.",
-        "Let the crispy pata rest before chopping. Serve with the dipping sauce."
-      ],
-      "dish_type": "main course",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 26,
-      "name": "Tapsilog",
-      "description": "Cured beef, fried rice, and fried egg breakfast combo.",
-      "ingredients": [
-        "For the beef tapa:",
-        "500 grams beef sirloin, thinly sliced",
-        "1/4 cup soy sauce",
-        "1/4 cup calamansi juice or lemon juice",
-        "4 cloves garlic, minced",
-        "2 tablespoons brown sugar",
-        "1 teaspoon ground black pepper",
-        "Oil for frying",
-        "For the garlic rice:",
-        "4 cups cooked rice",
-        "4 cloves garlic, minced",
-        "2 tablespoons oil",
-        "Salt to taste",
-        "4 eggs, fried sunny-side up"
-      ],
-      "steps": [
-        "Marinate beef slices in soy sauce, calamansi juice, garlic, brown sugar, and black pepper for at least 4 hours or overnight.",
-        "Fry the marinated beef in hot oil until cooked to your liking.",
-        "For garlic rice, sauté minced garlic in oil until golden brown.",
-        "Add cooked rice and stir-fry until well combined. Season with salt.",
-        "Serve beef tapa with garlic rice and fried egg. Enjoy with vinegar dipping sauce if desired."
-      ],
-      "dish_type": "breakfast",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 27,
-      "name": "Dinuguan",
-      "description": "Savory stew of pork and pig's blood with vinegar and spices.",
-      "ingredients": [
-        "1 kg pork belly, cut into small cubes",
-        "1 cup fresh pig's blood",
-        "1 cup vinegar",
-        "1 onion, chopped",
-        "5 cloves garlic, minced",
-        "3 green chilies, sliced",
-        "1 tablespoon fish sauce",
-        "1 cup water",
-        "Oil for sautéing",
-        "Salt and pepper to taste"
-      ],
-      "steps": [
-        "In a pot, heat oil and sauté garlic and onion until fragrant.",
-        "Add pork and cook until lightly browned.",
-        "Pour in vinegar and let it boil without stirring for 5 minutes.",
-        "Add water and fish sauce. Simmer until pork is tender.",
-        "Slowly pour in pig's blood while stirring continuously to prevent coagulation.",
-        "Add green chilies and simmer for another 10 minutes.",
-        "Season with salt and pepper. Serve hot with steamed rice or puto."
-      ],
-      "dish_type": "stew",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 28,
-      "name": "Chicharon Bulaklak",
-      "description": "Deep-fried pork mesentery served as a crispy snack.",
-      "ingredients": [
-        "1 kg pork mesentery (ruffle fat), cleaned",
-        "1 tablespoon salt",
-        "1/4 cup vinegar",
-        "4 cloves garlic, crushed",
-        "1 teaspoon whole peppercorns",
-        "Water for boiling",
-        "Oil for deep-frying",
-        "Spiced vinegar for dipping"
-      ],
-      "steps": [
-        "Boil the pork mesentery in water with salt, vinegar, garlic, and peppercorns until tender.",
-        "Remove from pot and allow to drain and dry completely.",
-        "Heat oil in a deep fryer or deep pan.",
-        "Deep-fry the pork mesentery until golden brown and crispy.",
-        "Drain excess oil on paper towels.",
-        "Serve with spiced vinegar as a dipping sauce."
-      ],
-      "dish_type": "snack",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 29,
-      "name": "Kutsinta",
-      "description": "Sticky rice cakes made from rice flour and lye water.",
-      "ingredients": [
-        "1 cup all-purpose flour",
-        "1 cup glutinous rice flour",
-        "1 1/2 cups brown sugar",
-        "3 cups water",
-        "1 teaspoon lye water",
-        "1 teaspoon annatto powder (achuete)",
-        "Grated coconut for topping",
-        "Oil for greasing molds"
-      ],
-      "steps": [
-        "In a mixing bowl, combine all-purpose flour, glutinous rice flour, and brown sugar.",
-        "Dissolve annatto powder in water, then add to the dry ingredients. Mix well.",
-        "Add lye water and stir until batter is smooth.",
-        "Grease puto molds with oil and pour the batter into each mold.",
-        "Steam over boiling water for 30 to 40 minutes or until set.",
-        "Allow to cool before removing from molds.",
-        "Serve with grated coconut on top."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 30,
-      "name": "Bibingka",
-      "description": "Baked rice cake with salted eggs and cheese.",
-      "ingredients": [
-        "1 cup rice flour",
-        "1/2 cup all-purpose flour",
-        "3/4 cup sugar",
-        "1 tablespoon baking powder",
-        "1/2 teaspoon salt",
-        "3 eggs",
-        "1 1/4 cups coconut milk",
-        "1/4 cup melted butter",
-        "Banana leaves for lining",
-        "Salted eggs, sliced",
-        "Grated cheese",
-        "Grated coconut for topping"
-      ],
-      "steps": [
-        "Preheat oven to 375°F (190°C).",
-        "Line cake pans with banana leaves and brush with butter.",
-        "In a bowl, sift together rice flour, all-purpose flour, sugar, baking powder, and salt.",
-        "In another bowl, beat eggs, then add coconut milk and melted butter.",
-        "Combine wet and dry ingredients, mixing until smooth.",
-        "Pour batter into prepared pans.",
-        "Top with salted egg slices and grated cheese.",
-        "Bake for 20 to 25 minutes or until a toothpick comes out clean.",
-        "Brush with butter and sprinkle with grated coconut before serving."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 31,
-      "name": "Champorado",
-      "description": "Chocolate rice porridge served with milk.",
-      "ingredients": [
-        "1 cup glutinous rice",
-        "4 to 5 cups water",
-        "1/2 cup cocoa powder or tablea chocolate, dissolved",
-        "3/4 cup sugar (adjust to taste)",
-        "Pinch of salt",
-        "Evaporated milk or condensed milk for topping"
-      ],
-      "steps": [
-        "In a pot, bring water to a boil.",
-        "Add glutinous rice and cook over medium heat, stirring occasionally to prevent sticking.",
-        "Once rice is nearly cooked, add dissolved cocoa powder or melted tablea.",
-        "Stir in sugar and a pinch of salt. Continue cooking until rice is fully cooked and mixture thickens.",
-        "Serve hot in bowls with a swirl of milk on top."
-      ],
-      "dish_type": "breakfast",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 32,
-      "name": "Ube Halaya",
-      "description": "Purple yam jam often used in desserts.",
-      "ingredients": [
-        "1 kg purple yam (ube), boiled and grated",
-        "1 can (14 oz) condensed milk",
-        "1 can (12 oz) evaporated milk",
-        "1 cup coconut milk",
-        "1/2 cup butter or margarine",
-        "1 cup sugar (adjust to taste)",
-        "Ube flavoring (optional)"
-      ],
-      "steps": [
-        "Melt butter in a large pan over low heat.",
-        "Add grated ube and stir well.",
-        "Pour in condensed milk, evaporated milk, and coconut milk.",
-        "Add sugar and continue to cook over low heat, stirring constantly to prevent sticking.",
-        "Cook until the mixture becomes thick and sticky (about 30 to 45 minutes).",
-        "Add ube flavoring if a deeper color or flavor is desired.",
-        "Transfer to molds or containers and allow to cool.",
-        "Serve chilled or at room temperature."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 33,
-      "name": "Sapin-Sapin",
-      "description": "A colorful layered sticky rice cake with different flavors.",
-      "ingredients": [
-        "2 cups glutinous rice flour",
-        "1 1/2 cups sugar",
-        "4 cups coconut milk",
-        "1/2 cup mashed ube (purple yam)",
-        "1/2 cup mashed ripe jackfruit",
-        "Food coloring (purple and yellow)",
-        "Coconut curds (latik) for topping",
-        "Oil for greasing"
-      ],
-      "steps": [
-        "In a mixing bowl, combine glutinous rice flour, sugar, and coconut milk. Mix until smooth.",
-        "Divide the mixture evenly into three parts.",
-        "Add mashed ube and purple food coloring to the first part, mashed jackfruit and yellow food coloring to the second, and leave the third part plain.",
-        "Grease a round baking pan and pour the first layer (e.g., purple mixture). Steam for 15 minutes.",
-        "Pour the second layer (e.g., plain mixture) over the first and steam for another 15 minutes.",
-        "Pour the third layer (e.g., yellow mixture) and steam for an additional 15 minutes or until set.",
-        "Allow to cool before slicing.",
-        "Top with coconut curds before serving."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 34,
-      "name": "Turon",
-      "description": "Deep-fried banana rolls coated with caramelized sugar.",
-      "ingredients": [
-        "6 ripe saba bananas, sliced lengthwise",
-        "12 spring roll wrappers",
-        "1 cup brown sugar",
-        "1 cup ripe jackfruit strips (optional)",
-        "Oil for frying"
-      ],
-      "steps": [
-        "Place a slice of banana and jackfruit on a spring roll wrapper.",
-        "Sprinkle with brown sugar.",
-        "Roll tightly and seal the edges with water.",
-        "Heat oil in a pan and fry the rolls until golden brown.",
-        "Sprinkle extra brown sugar while frying to caramelize.",
-        "Drain on paper towels.",
-        "Serve warm."
-      ],
-      "dish_type": "snack",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 35,
-      "name": "Buko Pie",
-      "description": "Coconut custard pie with a flaky crust.",
-      "ingredients": [
-        "For the crust:",
-        "2 1/2 cups all-purpose flour",
-        "1 cup cold butter, cubed",
-        "1/2 teaspoon salt",
-        "1/4 cup cold water",
-        "For the filling:",
-        "3 cups young coconut meat, shredded",
-        "1 cup coconut water",
-        "1 cup evaporated milk",
-        "1/2 cup sugar",
-        "1/2 cup cornstarch",
-        "1 teaspoon vanilla extract"
-      ],
-      "steps": [
-        "Prepare the crust by mixing flour and salt. Cut in cold butter until crumbly.",
-        "Add cold water gradually and mix until dough forms.",
-        "Divide the dough into two, wrap in plastic, and refrigerate for 30 minutes.",
-        "For the filling, combine coconut water, evaporated milk, sugar, and cornstarch in a saucepan.",
-        "Cook over medium heat, stirring constantly until thickened.",
-        "Add shredded coconut and vanilla extract. Cool the filling.",
-        "Preheat oven to 375°F (190°C).",
-        "Roll out one dough portion and line a pie pan.",
-        "Pour in the cooled filling.",
-        "Roll out the second dough portion and place over the filling. Seal and crimp the edges.",
-        "Cut slits on top to allow steam to escape.",
-        "Bake for 45 to 60 minutes or until crust is golden brown.",
-        "Cool before slicing."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 36,
-      "name": "Halo-Halo",
-      "description": "A cold dessert with mixed fruits, beans, jellies, and shaved ice.",
-      "ingredients": [
-        "1 cup sweetened red beans",
-        "1 cup sweetened white beans",
-        "1 cup coconut gel (nata de coco)",
-        "1 cup sugar palm fruit (kaong)",
-        "1 cup sweetened banana (saba)",
-        "1 cup jackfruit strips",
-        "1 cup macapuno (coconut sport)",
-        "Shaved or crushed ice",
-        "Evaporated milk",
-        "Leche flan slices",
-        "Ube (purple yam) halaya",
-        "Ube ice cream (optional)"
-      ],
-      "steps": [
-        "In a tall glass, layer 1 to 2 tablespoons of each sweetened ingredient at the bottom.",
-        "Add shaved or crushed ice on top.",
-        "Pour evaporated milk over the ice.",
-        "Top with leche flan slice, ube halaya, and ube ice cream if desired.",
-        "Serve immediately with a spoon. Mix before eating."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 37,
-      "name": "Puto Bumbong",
-      "description": "Purple rice cakes steamed in bamboo tubes.",
-      "ingredients": [
-        "2 cups glutinous rice flour",
-        "1/2 cup ube powder or purple food coloring",
-        "1/2 cup water",
-        "Banana leaves, cut into squares",
-        "Grated coconut",
-        "Muscovado sugar",
-        "Butter or margarine"
-      ],
-      "steps": [
-        "Combine glutinous rice flour and ube powder in a bowl.",
-        "Gradually add water and mix until a dough forms.",
-        "Roll the dough into small logs that fit into bamboo tubes or molds.",
-        "Steam the dough in bamboo tubes or on banana leaves for about 3 to 5 minutes.",
-        "Remove from the steamer and spread with butter or margarine.",
-        "Serve on banana leaves topped with grated coconut and muscovado sugar."
-      ],
-      "dish_type": "dessert",
-      "taste_profile": "sweet"
-    },
-    {
-      "id": 38,
-      "name": "Empanada",
-      "description": "Pastry stuffed with meat, vegetables, and sometimes eggs.",
-      "ingredients": [
-        "For the dough:",
-        "3 cups all-purpose flour",
-        "1 teaspoon baking powder",
-        "1 teaspoon salt",
-        "1/2 cup cold butter, cubed",
-        "1/2 cup cold water",
-        "For the filling:",
-        "500 grams ground beef or pork",
-        "1 potato, diced",
-        "1 carrot, diced",
-        "1 onion, chopped",
-        "2 cloves garlic, minced",
-        "1/4 cup raisins",
-        "1/4 cup green peas",
-        "Salt and pepper to taste",
-        "Oil for sautéing",
-        "1 egg, beaten (for egg wash)"
-      ],
-      "steps": [
-        "Prepare the filling by sautéing garlic and onion in oil.",
-        "Add ground meat and cook until browned.",
-        "Add potatoes, carrots, raisins, and peas. Cook until vegetables are tender.",
-        "Season with salt and pepper. Cool the filling.",
-        "For the dough, mix flour, baking powder, and salt.",
-        "Cut in cold butter until mixture resembles coarse crumbs.",
-        "Add cold water gradually and mix until dough forms.",
-        "Knead gently, wrap in plastic, and refrigerate for 30 minutes.",
-        "Roll out the dough and cut into circles.",
-        "Place filling on one side of each circle, fold over, and seal the edges.",
-        "Brush with beaten egg.",
-        "Bake at 375°F (190°C) for 20 to 25 minutes or until golden brown.",
-        "Alternatively, deep-fry until golden."
-      ],
-      "dish_type": "snack",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 39,
-      "name": "Pandesal",
-      "description": "Soft bread rolls commonly eaten for breakfast.",
-      "ingredients": [
-        "4 cups all-purpose flour",
-        "1/2 cup sugar",
-        "1 1/2 teaspoons salt",
-        "1 packet active dry yeast (2 1/4 teaspoons)",
-        "1 1/4 cups warm milk",
-        "1/4 cup melted butter",
-        "1 egg",
-        "Bread crumbs for coating"
-      ],
-      "steps": [
-        "In a small bowl, dissolve yeast in warm milk. Let stand until foamy.",
-        "In a large bowl, combine flour, sugar, and salt.",
-        "Add yeast mixture, melted butter, and egg to the dry ingredients.",
-        "Mix until a soft dough forms.",
-        "Knead the dough on a floured surface until smooth and elastic (about 10 minutes).",
-        "Place the dough in a greased bowl, cover, and let it rise until doubled in size.",
-        "Punch down the dough and divide into small portions. Shape each into a ball.",
-        "Roll each ball in bread crumbs and place on a baking sheet.",
-        "Cover and let rise again until doubled.",
-        "Bake in a preheated oven at 350°F (175°C) for 15 to 20 minutes or until golden brown.",
-        "Serve warm."
-      ],
-      "dish_type": "bread",
-      "taste_profile": "savory"
-    },
-    {
-      "id": 40,
-      "name": "Ensaladang Talong",
-      "description": "Grilled eggplant salad with tomatoes and onions.",
-      "ingredients": [
-        "4 medium eggplants",
-        "2 tomatoes, diced",
-        "1 red onion, diced",
-        "1/4 cup vinegar",
-        "2 tablespoons fish sauce or salt to taste",
-        "1 teaspoon sugar (optional)",
-        "Ground black pepper to taste"
-      ],
-      "steps": [
-        "Grill or broil eggplants until skin is charred and flesh is soft.",
-        "Allow eggplants to cool, then peel off the skin.",
-        "Chop or mash the eggplant flesh and place in a bowl.",
-        "Add diced tomatoes and onions.",
-        "In a separate bowl, mix vinegar, fish sauce or salt, sugar, and black pepper.",
-        "Pour the dressing over the eggplant mixture and toss gently.",
-        "Adjust seasoning as needed.",
-        "Serve as a side dish or salad."
-      ],
-      "dish_type": "side dish",
-      "taste_profile": "savory"
-    },
-    
-        
-      
-        {
-          "id": 41,
-          "name": "Bistek Tagalog",
-          "description": "Beef slices marinated in soy sauce and calamansi juice, topped with onions.",
-          "ingredients": [
-            "1 kg beef sirloin or flank steak, thinly sliced",
-            "1/2 cup soy sauce",
-            "1/4 cup calamansi juice (or lemon juice)",
-            "4 cloves garlic, minced",
-            "2 large onions, sliced into rings",
-            "1 teaspoon ground black pepper",
-            "2 tablespoons cooking oil",
-            "Water as needed",
-            "Salt to taste"
-          ],
-          "steps": [
-            "In a bowl, marinate beef slices in soy sauce, calamansi juice, minced garlic, and black pepper for at least 1 hour.",
-            "In a pan, heat oil and sauté onion rings until translucent. Remove and set aside.",
-            "In the same pan, fry the marinated beef slices until browned. Do this in batches if necessary.",
-            "Pour the marinade into the pan and add a little water if needed. Simmer until beef is tender.",
-            "Adjust seasoning with salt if necessary.",
-            "Top with sautéed onions before serving.",
-            "Serve hot with steamed rice."
-          ],
-          "dish_type": "main course",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 42,
-          "name": "Leche Flan",
-          "description": "A rich custard dessert topped with caramelized sugar.",
-          "ingredients": [
-            "10 egg yolks",
-            "1 can (14 oz) condensed milk",
-            "1 can (12 oz) evaporated milk",
-            "1 teaspoon vanilla extract",
-            "1 cup sugar (for caramel)"
-          ],
-          "steps": [
-            "Prepare the caramel by melting sugar in a saucepan over low heat until golden brown.",
-            "Quickly pour the caramel into llanera molds or a baking dish, swirling to coat the bottom evenly. Set aside to cool.",
-            "In a bowl, gently whisk egg yolks to avoid creating bubbles.",
-            "Add condensed milk, evaporated milk, and vanilla extract. Mix until well combined.",
-            "Strain the mixture to remove any lumps.",
-            "Pour the custard mixture into the caramel-lined molds.",
-            "Cover molds with aluminum foil.",
-            "Steam over medium heat for about 30 to 35 minutes, or until set. Alternatively, bake in a water bath at 350°F (175°C) for about 45 minutes to 1 hour.",
-            "Let the flan cool before refrigerating.",
-            "To serve, run a knife around the edges and invert onto a serving plate."
-          ],
-          "dish_type": "dessert",
-          "taste_profile": "sweet"
-        },
-        {
-          "id": 43,
-          "name": "Palabok",
-          "description": "Rice noodles with shrimp sauce, topped with smoked fish flakes and chicharron.",
-          "ingredients": [
-            "500 grams rice noodles (bihon)",
-            "2 tablespoons annatto seeds",
-            "250 grams ground pork",
-            "200 grams shrimp, peeled and deveined",
-            "1/4 cup shrimp broth (from boiled shrimp shells)",
-            "1/4 cup fish sauce",
-            "4 cloves garlic, minced",
-            "1 onion, chopped",
-            "1/2 cup chicharron (pork cracklings), crushed",
-            "1/2 cup tinapa flakes (smoked fish)",
-            "2 hard-boiled eggs, sliced",
-            "Spring onions, chopped, for garnish",
-            "Calamansi or lemon wedges for serving",
-            "Cooking oil",
-            "Salt and pepper to taste"
-          ],
-          "steps": [
-            "Soak annatto seeds in 1/2 cup hot water to extract color. Set aside.",
-            "Cook rice noodles according to package instructions. Drain and set aside.",
-            "In a pan, sauté garlic and onion until fragrant.",
-            "Add ground pork and cook until browned.",
-            "Add shrimp and cook until pink.",
-            "Pour in shrimp broth, annatto water (strained), and fish sauce.",
-            "In a small bowl, dissolve 1/4 cup cornstarch in 1/2 cup water. Add to the pan and stir until sauce thickens.",
-            "Season with salt and pepper.",
-            "Place noodles on a serving platter. Pour the sauce over the noodles.",
-            "Top with crushed chicharron, tinapa flakes, sliced eggs, and chopped spring onions.",
-            "Serve with calamansi or lemon wedges."
-          ],
-          "dish_type": "noodle dish",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 44,
-          "name": "Lomi",
-          "description": "Thick egg noodle soup with pork, liver, and vegetables.",
-          "ingredients": [
-            "500 grams fresh lomi noodles",
-            "200 grams pork, sliced into strips",
-            "100 grams pork liver, sliced",
-            "1 cup shrimp, peeled and deveined",
-            "1 carrot, julienned",
-            "1 cup cabbage, shredded",
-            "1 onion, chopped",
-            "4 cloves garlic, minced",
-            "2 tablespoons soy sauce",
-            "6 cups pork or chicken broth",
-            "2 eggs, beaten",
-            "3 tablespoons cornstarch dissolved in 1/4 cup water",
-            "Spring onions, chopped, for garnish",
-            "Fish sauce or salt to taste",
-            "Cooking oil"
-          ],
-          "steps": [
-            "In a pot, heat oil and sauté garlic and onion until fragrant.",
-            "Add pork and cook until no longer pink.",
-            "Add liver and shrimp, cook for 2 minutes.",
-            "Pour in broth and bring to a boil.",
-            "Add lomi noodles and simmer for 5 minutes.",
-            "Add soy sauce and vegetables (carrots and cabbage). Cook until vegetables are tender.",
-            "Stir in cornstarch slurry to thicken the soup.",
-            "Slowly pour in beaten eggs while stirring gently to create egg strands.",
-            "Season with fish sauce or salt.",
-            "Serve hot, garnished with chopped spring onions."
-          ],
-          "dish_type": "soup",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 45,
-          "name": "Camote Cue",
-          "description": "Deep-fried sweet potatoes coated with caramelized brown sugar.",
-          "ingredients": [
-            "4 large sweet potatoes (camote), peeled and sliced thickly",
-            "1 cup brown sugar",
-            "Oil for deep frying",
-            "Bamboo skewers"
-          ],
-          "steps": [
-            "Heat oil in a deep pan suitable for frying.",
-            "Add brown sugar to the hot oil and allow it to melt slightly.",
-            "Carefully add sweet potato slices into the oil.",
-            "Fry until sweet potatoes are cooked and sugar sticks to them, about 8-10 minutes.",
-            "Stir occasionally to coat the slices evenly with caramelized sugar.",
-            "Remove from oil and let excess oil drip.",
-            "Skewer the sweet potato slices onto bamboo sticks.",
-            "Allow to cool slightly before serving."
-          ],
-          "dish_type": "snack",
-          "taste_profile": "sweet"
-        },
-        {
-          "id": 46,
-          "name": "Dinengdeng",
-          "description": "Vegetable dish with grilled fish and fermented fish sauce.",
-          "ingredients": [
-            "1 medium-sized grilled fish (e.g., bangus or tilapia), flaked",
-            "Assorted vegetables (e.g., squash flowers, eggplant, bitter melon, okra, string beans)",
-            "1 onion, sliced",
-            "2 tomatoes, sliced",
-            "1 thumb-sized ginger, sliced",
-            "2 cups water",
-            "2 tablespoons fermented fish sauce (bagoong isda)",
-            "Salt to taste"
-          ],
-          "steps": [
-            "In a pot, bring water to a boil.",
-            "Add onions, tomatoes, and ginger. Simmer for 5 minutes.",
-            "Add fermented fish sauce to the broth.",
-            "Add harder vegetables first (e.g., eggplant, bitter melon) and cook until partially tender.",
-            "Add softer vegetables (e.g., squash flowers, okra, string beans) and cook until all vegetables are tender.",
-            "Add the flaked grilled fish and simmer for another 2 minutes.",
-            "Adjust seasoning with salt if necessary.",
-            "Serve hot with steamed rice."
-          ],
-          "dish_type": "vegetable dish",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 47,
-          "name": "Pinangat",
-          "description": "Fish or shrimp cooked in sour broth with tomatoes and tamarind.",
-          "ingredients": [
-            "500 grams fish (e.g., tilapia, mackerel) or shrimp",
-            "2 tomatoes, quartered",
-            "1 onion, sliced",
-            "2 cups tamarind broth or tamarind mix",
-            "2 cups water",
-            "Mustard leaves or kamias (optional)",
-            "2 green chilies (siling haba)",
-            "Salt or fish sauce to taste"
-          ],
-          "steps": [
-            "In a pot, combine water, tamarind broth, onions, and tomatoes. Bring to a boil.",
-            "Add the fish or shrimp to the pot.",
-            "Add mustard leaves or kamias if using.",
-            "Add green chilies.",
-            "Simmer until the fish or shrimp is cooked through.",
-            "Season with salt or fish sauce to taste.",
-            "Serve hot with steamed rice."
-          ],
-          "dish_type": "stew",
-          "taste_profile": "sour"
-        },
-        {
-          "id": 48,
-          "name": "Chicken Adobo",
-          "description": "Chicken stewed in soy sauce, vinegar, and garlic.",
-          "ingredients": [
-            "1 kg chicken pieces",
-            "1/2 cup soy sauce",
-            "1/2 cup vinegar",
-            "6 cloves garlic, crushed",
-            "3 bay leaves",
-            "1 teaspoon black peppercorns",
-            "1 cup water",
-            "2 tablespoons cooking oil",
-            "Salt to taste"
-          ],
-          "steps": [
-            "In a pot, combine chicken, soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
-            "Pour in water and bring to a boil. Lower heat and simmer for about 30 minutes or until chicken is tender.",
-            "Remove the chicken pieces from the sauce.",
-            "In a separate pan, heat oil and fry the chicken until lightly browned.",
-            "Return the fried chicken to the sauce and simmer for another 10 minutes.",
-            "Adjust seasoning with salt if necessary.",
-            "Serve hot with steamed rice."
-          ],
-          "dish_type": "stew",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 49,
-          "name": "Pancit Palabok",
-          "description": "Rice noodles with a rich shrimp sauce and various toppings.",
-          "ingredients": [
-            "500 grams rice noodles (bihon)",
-            "250 grams ground pork",
-            "200 grams shrimp, peeled and deveined",
-            "1/2 cup annatto water (annatto seeds soaked in water)",
-            "1/4 cup fish sauce",
-            "4 cloves garlic, minced",
-            "1 onion, chopped",
-            "3 tablespoons cornstarch dissolved in 1/2 cup water",
-            "2 cups shrimp stock (from boiled shrimp shells)",
-            "Toppings:",
-            "Crushed chicharron (pork cracklings)",
-            "Tinapa flakes (smoked fish)",
-            "Hard-boiled eggs, sliced",
-            "Spring onions, chopped",
-            "Fried garlic bits",
-            "Lemon or calamansi wedges"
-          ],
-          "steps": [
-            "Cook rice noodles according to package instructions. Drain and set aside.",
-            "In a pan, sauté garlic and onion until fragrant.",
-            "Add ground pork and cook until browned.",
-            "Add shrimp and cook until pink.",
-            "Pour in shrimp stock, annatto water, and fish sauce. Bring to a boil.",
-            "Add cornstarch slurry and stir until sauce thickens.",
-            "Season with salt and pepper.",
-            "Place noodles on a serving platter and pour sauce over them.",
-            "Top with chicharron, tinapa flakes, sliced eggs, spring onions, and fried garlic bits.",
-            "Serve with lemon or calamansi wedges."
-          ],
-          "dish_type": "noodle dish",
-          "taste_profile": "savory"
-        },
-        {
-          "id": 50,
-          "name": "Nilagang Baka",
-          "description": "Beef stew with potatoes, cabbage, and vegetables.",
-          "ingredients": [
-            "1 kg beef shank or brisket, cut into chunks",
-            "2 liters water",
-            "1 onion, quartered",
-            "2 potatoes, peeled and quartered",
-            "1 corn on the cob, cut into pieces (optional)",
-            "1 bunch pechay (bok choy) or cabbage",
-            "1 tablespoon peppercorns",
-            "Fish sauce or salt to taste"
-          ],
-          "steps": [
-            "In a large pot, boil beef with water, onion, and peppercorns. Simmer until beef is tender (about 2 hours).",
-            "Skim off any scum that rises to the top.",
-            "Add potatoes and corn. Cook until vegetables are tender.",
-            "Season with fish sauce or salt.",
-            "Add pechay or cabbage and cook for another 2 minutes.",
-            "Serve hot with steamed rice and fish sauce with calamansi on the side."
-          ],
-          "dish_type": "stew",
-          "taste_profile": "savory"
-        }
-      
-]      
-  
-  
+  {
+    "id": 1,
+    "name": "Pork Adobo",
+    "description": "A savory and slightly sour pork stewed in soy sauce and vinegar.",
+    "ingredients": [
+      "1 kg pork belly, cut into chunks",
+      "1/2 cup soy sauce",
+      "1/2 cup vinegar",
+      "6 cloves garlic, crushed",
+      "3 bay leaves",
+      "1 teaspoon black peppercorns",
+      "1 cup water",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pot, combine pork, soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
+      "Pour in water and bring to a boil. Lower heat and simmer for 45 minutes to 1 hour until meat is tender.",
+      "Remove the pork from the sauce and fry in a pan until browned.",
+      "Return the fried pork to the sauce and simmer for an additional 10 minutes.",
+      "Adjust seasoning with salt if necessary. Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["pork", "soy sauce", "vinegar"]
+  },
+  {
+    "id": 2,
+    "name": "Sinigang na Baboy",
+    "description": "A sour tamarind soup with pork and assorted vegetables.",
+    "ingredients": [
+      "1 kg pork ribs or belly, cut into pieces",
+      "2 liters water",
+      "1 large onion, quartered",
+      "2 tomatoes, quartered",
+      "200 grams tamarind pulp or sinigang mix",
+      "1 radish, sliced",
+      "6 okra pods",
+      "1 cup string beans, cut into 2-inch pieces",
+      "2 eggplants, sliced",
+      "1 bunch kangkong (water spinach)",
+      "Salt or fish sauce to taste"
+    ],
+    "steps": [
+      "In a large pot, boil water and add pork, onion, and tomatoes. Simmer until pork is tender.",
+      "Add tamarind pulp or sinigang mix and stir well.",
+      "Add radish, okra, string beans, and eggplant. Cook until vegetables are tender.",
+      "Add kangkong leaves and simmer for 2 more minutes.",
+      "Season with salt or fish sauce to taste. Serve hot with rice."
+    ],
+    "main_ingredients": ["pork", "tamarind", "vegetables"]
+  },
+  {
+    "id": 3,
+    "name": "Kare-Kare",
+    "description": "A rich peanut-based stew with oxtail and vegetables.",
+    "ingredients": [
+      "1 kg oxtail (or beef tripe/beef chunks)",
+      "2 tablespoons annatto seeds soaked in 1/4 cup water",
+      "1 cup peanut butter",
+      "1/4 cup ground toasted rice",
+      "2 eggplants, sliced",
+      "1 bunch bok choy",
+      "1 cup string beans, cut into 2-inch pieces",
+      "1 banana blossom, sliced (optional)",
+      "Salt and pepper to taste",
+      "Shrimp paste (bagoong) for serving"
+    ],
+    "steps": [
+      "Boil oxtail until tender, skimming off any scum that rises.",
+      "In a separate pan, sauté annatto water to extract color.",
+      "Add peanut butter and ground toasted rice to the broth, stirring until well combined.",
+      "Add annatto extract to the pot and mix well.",
+      "Add eggplant, banana blossom, and string beans. Cook until vegetables are tender.",
+      "Season with salt and pepper. Add bok choy and simmer for 2 more minutes.",
+      "Serve hot with shrimp paste on the side."
+    ],
+    "main_ingredients": ["beef", "peanut butter", "vegetables"]
+  },
+  {
+    "id": 4,
+    "name": "Lechon Kawali",
+    "description": "Crispy deep-fried pork belly served with dipping sauce.",
+    "ingredients": [
+      "1 kg pork belly",
+      "1 tablespoon salt",
+      "1 teaspoon peppercorns",
+      "3 bay leaves",
+      "Water for boiling",
+      "Oil for deep frying"
+    ],
+    "steps": [
+      "In a pot, boil pork belly with salt, peppercorns, and bay leaves until tender.",
+      "Remove pork and let it dry completely. Refrigerate for a few hours or overnight for better results.",
+      "Heat oil in a deep fryer or deep pan.",
+      "Carefully deep-fry the pork belly until golden and crispy.",
+      "Let it rest for a few minutes before chopping. Serve with lechon sauce or spiced vinegar."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 5,
+    "name": "Tinolang Manok",
+    "description": "A ginger-based chicken soup with green papaya and chili leaves.",
+    "ingredients": [
+      "1 kg chicken, cut into serving pieces",
+      "1 medium green papaya, peeled and sliced",
+      "2 thumbs ginger, julienned",
+      "1 onion, sliced",
+      "4 cloves garlic, minced",
+      "2 tablespoons fish sauce",
+      "5 cups water",
+      "1 cup chili leaves or malunggay leaves",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a pot, sauté garlic, onion, and ginger until fragrant.",
+      "Add chicken pieces and cook until lightly browned.",
+      "Pour in fish sauce and water. Bring to a boil and simmer until chicken is tender.",
+      "Add green papaya slices and cook until tender.",
+      "Add chili leaves and simmer for 2 more minutes.",
+      "Season with salt and pepper. Serve hot."
+    ],
+    "main_ingredients": ["chicken"]
+  },
+  {
+    "id": 6,
+    "name": "Pancit Canton",
+    "description": "Stir-fried egg noodles with vegetables, meat, and shrimp.",
+    "ingredients": [
+      "500 grams pancit canton noodles",
+      "200 grams chicken breast, sliced",
+      "200 grams shrimp, peeled and deveined",
+      "1 cup cabbage, shredded",
+      "1 carrot, julienned",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "4 cloves garlic, minced",
+      "1/4 cup soy sauce",
+      "2 tablespoons oyster sauce",
+      "2 cups chicken broth",
+      "Salt and pepper to taste",
+      "Calamansi or lemon wedges for serving"
+    ],
+    "steps": [
+      "In a wok, sauté garlic and onion until translucent.",
+      "Add chicken and cook until no longer pink. Add shrimp and cook until opaque.",
+      "Add carrots, bell pepper, and cabbage. Stir-fry for 2 minutes.",
+      "Pour in chicken broth, soy sauce, and oyster sauce. Bring to a boil.",
+      "Add pancit canton noodles and cook until noodles absorb the liquid and are tender.",
+      "Season with salt and pepper. Serve hot with calamansi or lemon wedges."
+    ],
+    "main_ingredients": ["noodles", "vegetables", "meat", "shrimp"]
+  },
+  {
+    "id": 7,
+    "name": "Bulalo",
+    "description": "A hearty beef marrow stew with corn and vegetables.",
+    "ingredients": [
+      "1 kg beef shanks with bone marrow",
+      "2 liters water",
+      "1 onion, quartered",
+      "2 corn on the cob, cut into pieces",
+      "1 bunch pechay (bok choy)",
+      "2 potatoes, quartered",
+      "1 tablespoon peppercorns",
+      "Fish sauce or salt to taste"
+    ],
+    "steps": [
+      "In a large pot, boil beef shanks, onion, and peppercorns. Simmer until meat is tender, about 2-3 hours.",
+      "Add corn and potatoes. Cook until vegetables are tender.",
+      "Season with fish sauce or salt to taste.",
+      "Add pechay and simmer for 2 more minutes.",
+      "Serve hot with rice and fish sauce with chili on the side."
+    ],
+    "main_ingredients": ["beef", "corn", "vegetables"]
+  },
+  {
+    "id": 8,
+    "name": "Bicol Express",
+    "description": "Spicy pork stew cooked in coconut milk and chili peppers.",
+    "ingredients": [
+      "1 kg pork belly, sliced",
+      "2 cups coconut milk",
+      "1 cup coconut cream",
+      "5 cloves garlic, minced",
+      "1 onion, chopped",
+      "3 tablespoons shrimp paste (bagoong)",
+      "10 pieces bird's eye chilies, sliced (adjust to taste)",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pan, sauté garlic and onion until fragrant.",
+      "Add pork belly and cook until lightly browned.",
+      "Stir in shrimp paste and cook for 2 minutes.",
+      "Pour in coconut milk and bring to a boil. Simmer until pork is tender.",
+      "Add chilies and coconut cream. Continue to simmer until sauce thickens.",
+      "Season with salt if necessary. Serve hot with rice."
+    ],
+    "main_ingredients": ["pork", "coconut milk", "chili peppers"]
+  },
+  {
+    "id": 9,
+    "name": "Inihaw na Liempo",
+    "description": "Grilled pork belly marinated in a savory sauce.",
+    "ingredients": [
+      "1 kg pork belly slices",
+      "1/2 cup soy sauce",
+      "1/4 cup calamansi juice or lemon juice",
+      "4 cloves garlic, minced",
+      "2 tablespoons brown sugar",
+      "1 teaspoon black pepper",
+      "Bamboo skewers (optional)"
+    ],
+    "steps": [
+      "In a bowl, combine soy sauce, calamansi juice, garlic, brown sugar, and black pepper.",
+      "Marinate pork belly in the mixture for at least 2 hours or overnight.",
+      "Preheat grill to medium heat.",
+      "Skewer pork belly slices if desired. Grill each side until cooked through and slightly charred.",
+      "Baste with remaining marinade while grilling. Serve hot with spiced vinegar."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 10,
+    "name": "Laing",
+    "description": "Taro leaves cooked in coconut milk with shrimp paste and chilies.",
+    "ingredients": [
+      "200 grams dried taro leaves",
+      "2 cups coconut milk",
+      "1 cup coconut cream",
+      "3 tablespoons shrimp paste (bagoong)",
+      "5 cloves garlic, minced",
+      "1 onion, chopped",
+      "Thumb-sized ginger, sliced",
+      "5 pieces red chilies, sliced",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pot, sauté garlic, onion, and ginger until fragrant.",
+      "Add shrimp paste and cook for 2 minutes.",
+      "Pour in coconut milk and bring to a boil.",
+      "Add taro leaves, pressing down to absorb the liquid. Do not stir to avoid itching sensation.",
+      "Simmer until taro leaves are tender and liquid is reduced.",
+      "Add coconut cream and chilies. Cook for another 10 minutes until sauce thickens.",
+      "Season with salt if necessary. Serve with rice."
+    ],
+    "main_ingredient": ["taro leaves", "coconut milk"]
+  },
+  {
+    "id": 11,
+    "name": "Kaldereta",
+    "description": "A spicy tomato-based stew with beef or goat and vegetables.",
+    "ingredients": [
+      "1 kg beef or goat cubes",
+      "2 cups beef or goat broth or water",
+      "1 cup tomato sauce",
+      "1/2 cup liver spread",
+      "2 potatoes, cubed",
+      "2 carrots, sliced",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, chopped",
+      "4 cloves garlic, minced",
+      "2 tablespoons cooking oil",
+      "Salt and pepper to taste",
+      "Red chili flakes (optional, for spice)"
+    ],
+    "steps": [
+      "In a pot, heat oil and sauté garlic and onion until fragrant.",
+      "Add beef cubes and cook until browned.",
+      "Pour in tomato sauce and beef broth. Bring to a boil and simmer until beef is tender.",
+      "Add liver spread and mix well.",
+      "Add potatoes, carrots, and bell peppers. Cook until vegetables are tender.",
+      "Season with salt, pepper, and chili flakes if desired.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["beef", "goat"]
+  },
+  {
+    "id": 12,
+    "name": "Paksiw na Pata",
+    "description": "Pork hock stewed in vinegar and soy sauce with banana blossoms.",
+    "ingredients": [
+      "1 kg pork hock (pata), sliced",
+      "1/2 cup vinegar",
+      "1/2 cup soy sauce",
+      "5 cloves garlic, crushed",
+      "2 tablespoons brown sugar",
+      "1 cup dried banana blossoms",
+      "1 teaspoon peppercorns",
+      "3 bay leaves",
+      "Water as needed",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pot, combine pork hock, vinegar, soy sauce, garlic, brown sugar, peppercorns, and bay leaves.",
+      "Add enough water to cover the meat. Bring to a boil and simmer until pork is tender.",
+      "Add dried banana blossoms and cook for another 15 minutes.",
+      "Adjust seasoning with salt if necessary.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["pork", "vinegar", "soy sauce"]
+  },
+  {
+    "id": 13,
+    "name": "Pinakbet",
+    "description": "Mixed vegetables steamed in fish sauce with pork.",
+    "ingredients": [
+      "200 grams pork belly, sliced",
+      "1 eggplant, sliced",
+      "1 bitter melon (ampalaya), sliced",
+      "200 grams squash, cubed",
+      "100 grams okra",
+      "1 cup long beans (sitaw), cut into 2-inch pieces",
+      "2 tomatoes, chopped",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "3 tablespoons shrimp paste (bagoong)",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a pan, sauté garlic, onion, and tomatoes until soft.",
+      "Add pork belly and cook until lightly browned.",
+      "Stir in shrimp paste and cook for 2 minutes.",
+      "Add squash and a little water. Cover and simmer for 5 minutes.",
+      "Add the remaining vegetables. Cover and cook until all are tender.",
+      "Season with salt and pepper if necessary. Serve hot."
+    ],
+    "main_ingredients": ["vegetables","fish sauce", "pork"]
+  },
+  {
+    "id": 14,
+    "name": "Ginataang Gulay",
+    "description": "Vegetables cooked in coconut milk.",
+    "ingredients": [
+      "200 grams squash, cubed",
+      "100 grams string beans, cut into 2-inch pieces",
+      "1 eggplant, sliced",
+      "1 cup coconut milk",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tablespoons shrimp paste (bagoong)",
+      "1 tablespoon cooking oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a pan, heat oil and sauté garlic and onion until fragrant.",
+      "Add shrimp paste and cook for 2 minutes.",
+      "Add squash and coconut milk. Simmer for 5 minutes.",
+      "Add eggplant and string beans. Cook until vegetables are tender.",
+      "Season with salt and pepper. Serve hot with rice."
+    ],
+    "main_ingredients": ["vegetables", "milk"]
+  },
+  {
+    "id": 15,
+    "name": "Arroz Caldo",
+    "description": "A comforting rice porridge with chicken and ginger.",
+    "ingredients": [
+      "1 cup glutinous rice",
+      "500 grams chicken pieces",
+      "2 thumbs ginger, julienned",
+      "1 onion, chopped",
+      "4 cloves garlic, minced",
+      "6 cups chicken broth",
+      "2 tablespoons fish sauce",
+      "Salt and pepper to taste",
+      "Spring onions and fried garlic for garnish",
+      "Calamansi or lemon wedges for serving"
+    ],
+    "steps": [
+      "In a pot, sauté garlic, onion, and ginger until fragrant.",
+      "Add chicken pieces and cook until no longer pink.",
+      "Add glutinous rice and stir for 2 minutes.",
+      "Pour in chicken broth and fish sauce. Bring to a boil.",
+      "Simmer while stirring occasionally until rice is fully cooked and porridge has thickened.",
+      "Season with salt and pepper.",
+      "Serve hot topped with spring onions and fried garlic, with calamansi on the side."
+    ],
+    "main_ingredients": ["rice"]
+  },
+  {
+    "id": 16,
+    "name": "Lumpiang Shanghai",
+    "description": "Deep-fried spring rolls filled with ground pork and vegetables.",
+    "ingredients": [
+      "500 grams ground pork",
+      "1 carrot, finely chopped",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 egg",
+      "Salt and pepper to taste",
+      "Lumpia wrappers",
+      "Oil for frying",
+      "Sweet and sour sauce for dipping"
+    ],
+    "steps": [
+      "In a bowl, mix ground pork, carrot, onion, garlic, egg, salt, and pepper.",
+      "Wrap a tablespoon of filling in each lumpia wrapper.",
+      "Heat oil in a deep pan. Fry lumpia until golden brown.",
+      "Drain on paper towels. Serve hot with dipping sauce."
+    ],
+    "main_ingredients": ["pork" ,"vegetables"]
+  },
+  {
+    "id": 17,
+    "name": "Sinigang na Hipon",
+    "description": "A sour tamarind soup with shrimp and vegetables.",
+    "ingredients": [
+      "500 grams large shrimp, trimmed",
+      "2 liters water",
+      "1 large onion, quartered",
+      "2 tomatoes, quartered",
+      "200 grams tamarind pulp or sinigang mix",
+      "1 radish, sliced",
+      "6 okra pods",
+      "1 cup string beans, cut into 2-inch pieces",
+      "2 eggplants, sliced",
+      "1 bunch kangkong (water spinach)",
+      "Salt or fish sauce to taste"
+    ],
+    "steps": [
+      "Boil water in a pot. Add onion and tomatoes. Simmer for 5 minutes.",
+      "Add tamarind pulp or sinigang mix. Stir well.",
+      "Add radish, okra, string beans, and eggplant. Cook until vegetables are tender.",
+      "Add shrimp and cook until pink and opaque.",
+      "Add kangkong leaves and simmer for 2 more minutes.",
+      "Season with salt or fish sauce. Serve hot."
+    ],
+    "main_ingredients": ["tamarind", "shrimp", "vegetables"]
+  },
+  {
+    "id": 18,
+    "name": "Tortang Talong",
+    "description": "Grilled eggplant omelette with ground meat.",
+    "ingredients": [
+      "4 medium eggplants",
+      "200 grams ground pork or beef",
+      "4 eggs, beaten",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste",
+      "Oil for frying",
+      "Ketchup or dipping sauce (optional)"
+    ],
+    "steps": [
+      "Grill or broil eggplants until skin is charred. Let cool and peel off skin, keeping the stem intact.",
+      "Flatten the eggplants using a fork.",
+      "In a pan, sauté garlic and onion. Add ground meat and cook until browned. Season with salt and pepper.",
+      "Place some cooked meat on top of each flattened eggplant.",
+      "Dip the eggplant with meat into the beaten eggs, coating well.",
+      "Heat oil in a pan and fry the eggplant until golden brown on both sides.",
+      "Serve hot with ketchup or preferred dipping sauce."
+    ],
+    "main_ingredients": ["eggplant", "egg"]
+  },
+  {
+    "id": 19,
+    "name": "Bopis",
+    "description": "Spicy minced pork lungs and heart sautéed in chilies and onions.",
+    "ingredients": [
+      "500 grams pork lungs and heart, cleaned and minced",
+      "1 onion, chopped",
+      "5 cloves garlic, minced",
+      "2 tablespoons vinegar",
+      "2 tablespoons soy sauce",
+      "3 pieces red chilies, sliced",
+      "1 red bell pepper, chopped",
+      "Salt and pepper to taste",
+      "Oil for sautéing"
+    ],
+    "steps": [
+      "Boil minced pork lungs and heart until tender. Drain and set aside.",
+      "In a pan, heat oil and sauté garlic and onion until fragrant.",
+      "Add minced organs and cook for 5 minutes.",
+      "Pour in vinegar and soy sauce. Do not stir for a few minutes to cook off the vinegar.",
+      "Add chilies and bell pepper. Stir and cook for another 5 minutes.",
+      "Season with salt and pepper. Serve hot with rice."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 20,
+    "name": "Sisig",
+    "description": "Chopped pig's head and liver seasoned with calamansi and chili peppers.",
+    "ingredients": [
+      "1 kg pig's face (snout and ears)",
+      "200 grams chicken liver",
+      "3 tablespoons soy sauce",
+      "1 onion, finely chopped",
+      "5 calamansi or 2 limes",
+      "3 red chilies, chopped",
+      "1 teaspoon ground black pepper",
+      "Salt to taste",
+      "Mayonnaise (optional)",
+      "Oil for grilling and sautéing"
+    ],
+    "steps": [
+      "Boil pig's face until tender. Grill until crispy then chop into small pieces.",
+      "Grill chicken liver until cooked and chop finely.",
+      "In a pan, sauté onions until translucent.",
+      "Add chopped meat and liver. Stir in soy sauce and cook for 5 minutes.",
+      "Season with calamansi juice, chilies, salt, and pepper.",
+      "Optional: Add mayonnaise for a creamy texture.",
+      "Serve on a sizzling plate if available."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 21,
+    "name": "Ginisang Monggo",
+    "description": "Mung bean stew with spinach and pork.",
+    "ingredients": [
+      "1 cup mung beans (monggo), rinsed",
+      "200 grams pork belly, sliced",
+      "1 cup spinach or bitter melon leaves",
+      "2 tomatoes, chopped",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "4 cups water",
+      "Fish sauce or salt to taste",
+      "Oil for sautéing"
+    ],
+    "steps": [
+      "Boil mung beans in water until soft. Set aside.",
+      "In a pan, sauté garlic, onion, and tomatoes until soft.",
+      "Add pork and cook until browned.",
+      "Pour in the cooked mung beans with its liquid. Simmer for 10 minutes.",
+      "Add spinach or bitter melon leaves and cook until wilted.",
+      "Season with fish sauce or salt. Serve hot."
+    ],
+    "main_ingredients": ["mung bean", "spinach", "pork"]
+  },
+  {
+    "id": 22,
+    "name": "Chicken Inasal",
+    "description": "Grilled chicken marinated in lemongrass and annatto oil.",
+    "ingredients": [
+      "1 kg chicken pieces",
+      "1/2 cup calamansi juice",
+      "1/4 cup ginger, grated",
+      "1/4 cup garlic, minced",
+      "1/4 cup lemongrass, minced",
+      "1/2 cup annatto oil",
+      "1/4 cup brown sugar",
+      "Salt and pepper to taste",
+      "Bamboo skewers (optional)"
+    ],
+    "steps": [
+      "In a bowl, mix calamansi juice, ginger, garlic, lemongrass, brown sugar, salt, and pepper.",
+      "Marinate chicken pieces in the mixture for at least 2 hours or overnight.",
+      "Preheat grill to medium heat.",
+      "Skewer chicken pieces if desired. Grill while basting with annatto oil until cooked through.",
+      "Serve hot with rice and dipping sauce."
+    ],
+    "main_ingredients": ["chicken"]
+  },
+  {
+    "id": 23,
+    "name": "Binagoongan",
+    "description": "Pork stewed in shrimp paste and tomatoes.",
+    "ingredients": [
+      "1 kg pork belly, cut into cubes",
+      "3 tablespoons shrimp paste (bagoong)",
+      "2 tomatoes, chopped",
+      "1 onion, chopped",
+      "4 cloves garlic, minced",
+      "1 tablespoon vinegar",
+      "1 teaspoon sugar (optional)",
+      "1 cup water",
+      "Oil for sautéing"
+    ],
+    "steps": [
+      "Heat oil in a pan and sauté garlic and onion until fragrant.",
+      "Add tomatoes and cook until soft.",
+      "Add pork belly and cook until lightly browned.",
+      "Stir in shrimp paste and cook for 3 minutes.",
+      "Pour in vinegar and let it simmer without stirring for a few minutes.",
+      "Add water and sugar if using. Simmer until pork is tender and sauce thickens.",
+      "Adjust seasoning as needed. Serve hot with rice."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 24,
+    "name": "Longganisa",
+    "description": "Filipino sweet or garlicky pork sausages.",
+    "ingredients": [
+      "1 kg ground pork (with some fat)",
+      "1/2 cup brown sugar",
+      "1/4 cup vinegar",
+      "1 head garlic, minced",
+      "1 tablespoon paprika",
+      "1 teaspoon ground black pepper",
+      "1 tablespoon salt",
+      "Sausage casings or wax paper"
+    ],
+    "steps": [
+      "In a large bowl, combine ground pork, brown sugar, vinegar, minced garlic, paprika, black pepper, and salt.",
+      "Mix thoroughly until well combined.",
+      "Stuff the mixture into sausage casings or shape into logs using wax paper.",
+      "Refrigerate overnight to allow flavors to meld.",
+      "To cook, place sausages in a pan with a little water. Simmer until water evaporates, then add oil and fry until browned.",
+      "Serve hot with garlic rice and eggs."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 25,
+    "name": "Crispy Pata",
+    "description": "Deep-fried pork knuckles served with soy-vinegar dip.",
+    "ingredients": [
+      "1 whole pork leg (pata), cleaned",
+      "1 tablespoon salt",
+      "1 teaspoon whole black peppercorns",
+      "3 bay leaves",
+      "1 head garlic, crushed",
+      "Water for boiling",
+      "Oil for deep-frying",
+      "For the dipping sauce:",
+      "1/2 cup vinegar",
+      "1/4 cup soy sauce",
+      "1 small onion, chopped",
+      "2 cloves garlic, minced",
+      "1 red chili, sliced (optional)"
+    ],
+    "steps": [
+      "In a large pot, boil pork leg with salt, peppercorns, bay leaves, and garlic until meat is tender (about 1.5 to 2 hours).",
+      "Remove the pork leg from the pot and allow it to dry completely. For best results, refrigerate overnight.",
+      "Heat oil in a deep fryer or large pot.",
+      "Carefully deep-fry the pork leg until skin is crispy and golden brown.",
+      "Prepare the dipping sauce by mixing vinegar, soy sauce, onion, garlic, and chili.",
+      "Let the crispy pata rest before chopping. Serve with the dipping sauce."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 26,
+    "name": "Tapsilog",
+    "description": "Cured beef, fried rice, and fried egg breakfast combo.",
+    "ingredients": [
+      "For the beef tapa:",
+      "500 grams beef sirloin, thinly sliced",
+      "1/4 cup soy sauce",
+      "1/4 cup calamansi juice or lemon juice",
+      "4 cloves garlic, minced",
+      "2 tablespoons brown sugar",
+      "1 teaspoon ground black pepper",
+      "Oil for frying",
+      "For the garlic rice:",
+      "4 cups cooked rice",
+      "4 cloves garlic, minced",
+      "2 tablespoons oil",
+      "Salt to taste",
+      "4 eggs, fried sunny-side up"
+    ],
+    "steps": [
+      "Marinate beef slices in soy sauce, calamansi juice, garlic, brown sugar, and black pepper for at least 4 hours or overnight.",
+      "Fry the marinated beef in hot oil until cooked to your liking.",
+      "For garlic rice, sauté minced garlic in oil until golden brown.",
+      "Add cooked rice and stir-fry until well combined. Season with salt.",
+      "Serve beef tapa with garlic rice and fried egg. Enjoy with vinegar dipping sauce if desired."
+    ],
+    "main_ingredients": ["rice"]
+  },
+  {
+    "id": 27,
+    "name": "Dinuguan",
+    "description": "Savory stew of pork and pig's blood with vinegar and spices.",
+    "ingredients": [
+      "1 kg pork belly, cut into small cubes",
+      "1 cup fresh pig's blood",
+      "1 cup vinegar",
+      "1 onion, chopped",
+      "5 cloves garlic, minced",
+      "3 green chilies, sliced",
+      "1 tablespoon fish sauce",
+      "1 cup water",
+      "Oil for sautéing",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a pot, heat oil and sauté garlic and onion until fragrant.",
+      "Add pork and cook until lightly browned.",
+      "Pour in vinegar and let it boil without stirring for 5 minutes.",
+      "Add water and fish sauce. Simmer until pork is tender.",
+      "Slowly pour in pig's blood while stirring continuously to prevent coagulation.",
+      "Add green chilies and simmer for another 10 minutes.",
+      "Season with salt and pepper. Serve hot with steamed rice or puto."
+    ],
+    "main_ingredients": ["pork", "pig's blood"]
+  },
+  {
+    "id": 28,
+    "name": "Chicharon Bulaklak",
+    "description": "Deep-fried pork mesentery served as a crispy snack.",
+    "ingredients": [
+      "1 kg pork mesentery (ruffle fat), cleaned",
+      "1 tablespoon salt",
+      "1/4 cup vinegar",
+      "4 cloves garlic, crushed",
+      "1 teaspoon whole peppercorns",
+      "Water for boiling",
+      "Oil for deep-frying",
+      "Spiced vinegar for dipping"
+    ],
+    "steps": [
+      "Boil the pork mesentery in water with salt, vinegar, garlic, and peppercorns until tender.",
+      "Remove from pot and allow to drain and dry completely.",
+      "Heat oil in a deep fryer or deep pan.",
+      "Deep-fry the pork mesentery until golden brown and crispy.",
+      "Drain excess oil on paper towels.",
+      "Serve with spiced vinegar as a dipping sauce."
+    ],
+    "main_ingredients": ["pork"]
+  },
+  {
+    "id": 29,
+    "name": "Kutsinta",
+    "description": "Sticky rice cakes made from rice flour and lye water.",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "1 cup glutinous rice flour",
+      "1 1/2 cups brown sugar",
+      "3 cups water",
+      "1 teaspoon lye water",
+      "1 teaspoon annatto powder (achuete)",
+      "Grated coconut for topping",
+      "Oil for greasing molds"
+    ],
+    "steps": [
+      "In a mixing bowl, combine all-purpose flour, glutinous rice flour, and brown sugar.",
+      "Dissolve annatto powder in water, then add to the dry ingredients. Mix well.",
+      "Add lye water and stir until batter is smooth.",
+      "Grease puto molds with oil and pour the batter into each mold.",
+      "Steam over boiling water for 30 to 40 minutes or until set.",
+      "Allow to cool before removing from molds.",
+      "Serve with grated coconut on top."
+    ],
+    "main_ingredients": ["rice flour"]
+  },
+  {
+    "id": 30,
+    "name": "Bibingka",
+    "description": "Baked rice cake with salted eggs and cheese.",
+    "ingredients": [
+      "1 cup rice flour",
+      "1/2 cup all-purpose flour",
+      "3/4 cup sugar",
+      "1 tablespoon baking powder",
+      "1/2 teaspoon salt",
+      "3 eggs",
+      "1 1/4 cups coconut milk",
+      "1/4 cup melted butter",
+      "Banana leaves for lining",
+      "Salted eggs, sliced",
+      "Grated cheese",
+      "Grated coconut for topping"
+    ],
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Line cake pans with banana leaves and brush with butter.",
+      "In a bowl, sift together rice flour, all-purpose flour, sugar, baking powder, and salt.",
+      "In another bowl, beat eggs, then add coconut milk and melted butter.",
+      "Combine wet and dry ingredients, mixing until smooth.",
+      "Pour batter into prepared pans.",
+      "Top with salted egg slices and grated cheese.",
+      "Bake for 20 to 25 minutes or until a toothpick comes out clean.",
+      "Brush with butter and sprinkle with grated coconut before serving."
+    ],
+    "main_ingredients": ["rice flour"]
+  },
+  {
+    "id": 31,
+    "name": "Champorado",
+    "description": "Chocolate rice porridge served with milk.",
+    "ingredients": [
+      "1 cup glutinous rice",
+      "4 to 5 cups water",
+      "1/2 cup cocoa powder or tablea chocolate, dissolved",
+      "3/4 cup sugar (adjust to taste)",
+      "Pinch of salt",
+      "Evaporated milk or condensed milk for topping"
+    ],
+    "steps": [
+      "In a pot, bring water to a boil.",
+      "Add glutinous rice and cook over medium heat, stirring occasionally to prevent sticking.",
+      "Once rice is nearly cooked, add dissolved cocoa powder or melted tablea.",
+      "Stir in sugar and a pinch of salt. Continue cooking until rice is fully cooked and mixture thickens.",
+      "Serve hot in bowls with a swirl of milk on top."
+    ],
+    "main_ingredients": ["glutinous rice"]
+  },
+  {
+    "id": 32,
+    "name": "Ube Halaya",
+    "description": "Purple yam jam often used in desserts.",
+    "ingredients": [
+      "1 kg purple yam (ube), boiled and grated",
+      "1 can (14 oz) condensed milk",
+      "1 can (12 oz) evaporated milk",
+      "1 cup coconut milk",
+      "1/2 cup butter or margarine",
+      "1 cup sugar (adjust to taste)",
+      "Ube flavoring (optional)"
+    ],
+    "steps": [
+      "Melt butter in a large pan over low heat.",
+      "Add grated ube and stir well.",
+      "Pour in condensed milk, evaporated milk, and coconut milk.",
+      "Add sugar and continue to cook over low heat, stirring constantly to prevent sticking.",
+      "Cook until the mixture becomes thick and sticky (about 30 to 45 minutes).",
+      "Add ube flavoring if a deeper color or flavor is desired.",
+      "Transfer to molds or containers and allow to cool.",
+      "Serve chilled or at room temperature."
+    ],
+    "main_ingredients": ["purple yam"]
+  },
+  {
+    "id": 33,
+    "name": "Sapin-Sapin",
+    "description": "A colorful layered sticky rice cake with different flavors.",
+    "ingredients": [
+      "2 cups glutinous rice flour",
+      "1 1/2 cups sugar",
+      "4 cups coconut milk",
+      "1/2 cup mashed ube (purple yam)",
+      "1/2 cup mashed ripe jackfruit",
+      "Food coloring (purple and yellow)",
+      "Coconut curds (latik) for topping",
+      "Oil for greasing"
+    ],
+    "steps": [
+      "In a mixing bowl, combine glutinous rice flour, sugar, and coconut milk. Mix until smooth.",
+      "Divide the mixture evenly into three parts.",
+      "Add mashed ube and purple food coloring to the first part, mashed jackfruit and yellow food coloring to the second, and leave the third part plain.",
+      "Grease a round baking pan and pour the first layer (e.g., purple mixture). Steam for 15 minutes.",
+      "Pour the second layer (e.g., plain mixture) over the first and steam for another 15 minutes.",
+      "Pour the third layer (e.g., yellow mixture) and steam for an additional 15 minutes or until set.",
+      "Allow to cool before slicing.",
+      "Top with coconut curds before serving."
+    ],
+    "main_ingredients": ["glutinous rice"]
+  },
+  {
+    "id": 34,
+    "name": "Turon",
+    "description": "Deep-fried banana rolls coated with caramelized sugar.",
+    "ingredients": [
+      "6 ripe saba bananas, sliced lengthwise",
+      "12 spring roll wrappers",
+      "1 cup brown sugar",
+      "1 cup ripe jackfruit strips (optional)",
+      "Oil for frying"
+    ],
+    "steps": [
+      "Place a slice of banana and jackfruit on a spring roll wrapper.",
+      "Sprinkle with brown sugar.",
+      "Roll tightly and seal the edges with water.",
+      "Heat oil in a pan and fry the rolls until golden brown.",
+      "Sprinkle extra brown sugar while frying to caramelize.",
+      "Drain on paper towels.",
+      "Serve warm."
+    ],
+    "main_ingredients": ["banana"]
+  },
+  {
+    "id": 35,
+    "name": "Buko Pie",
+    "description": "Coconut custard pie with a flaky crust.",
+    "ingredients": [
+      "For the crust:",
+      "2 1/2 cups all-purpose flour",
+      "1 cup cold butter, cubed",
+      "1/2 teaspoon salt",
+      "1/4 cup cold water",
+      "For the filling:",
+      "3 cups young coconut meat, shredded",
+      "1 cup coconut water",
+      "1 cup evaporated milk",
+      "1/2 cup sugar",
+      "1/2 cup cornstarch",
+      "1 teaspoon vanilla extract"
+    ],
+    "steps": [
+      "Prepare the crust by mixing flour and salt. Cut in cold butter until crumbly.",
+      "Add cold water gradually and mix until dough forms.",
+      "Divide the dough into two, wrap in plastic, and refrigerate for 30 minutes.",
+      "For the filling, combine coconut water, evaporated milk, sugar, and cornstarch in a saucepan.",
+      "Cook over medium heat, stirring constantly until thickened.",
+      "Add shredded coconut and vanilla extract. Cool the filling.",
+      "Preheat oven to 375°F (190°C).",
+      "Roll out one dough portion and line a pie pan.",
+      "Pour in the cooled filling.",
+      "Roll out the second dough portion and place over the filling. Seal and crimp the edges.",
+      "Cut slits on top to allow steam to escape.",
+      "Bake for 45 to 60 minutes or until crust is golden brown.",
+      "Cool before slicing."
+    ],
+    "main_ingredients": ["coconut"]
+  },
+  {
+    "id": 36,
+    "name": "Halo-Halo",
+    "description": "A cold dessert with mixed fruits, beans, jellies, and shaved ice.",
+    "ingredients": [
+      "1 cup sweetened red beans",
+      "1 cup sweetened white beans",
+      "1 cup coconut gel (nata de coco)",
+      "1 cup sugar palm fruit (kaong)",
+      "1 cup sweetened banana (saba)",
+      "1 cup jackfruit strips",
+      "1 cup macapuno (coconut sport)",
+      "Shaved or crushed ice",
+      "Evaporated milk",
+      "Leche flan slices",
+      "Ube (purple yam) halaya",
+      "Ube ice cream (optional)"
+    ],
+    "steps": [
+      "In a tall glass, layer 1 to 2 tablespoons of each sweetened ingredient at the bottom.",
+      "Add shaved or crushed ice on top.",
+      "Pour evaporated milk over the ice.",
+      "Top with leche flan slice, ube halaya, and ube ice cream if desired.",
+      "Serve immediately with a spoon. Mix before eating."
+    ],
+    "main_ingredients": ["fruits", "beans", "jellies", "shaved ice"]
+  },
+  {
+    "id": 37,
+    "name": "Puto Bumbong",
+    "description": "Purple rice cakes steamed in bamboo tubes.",
+    "ingredients": [
+      "2 cups glutinous rice flour",
+      "1/2 cup ube powder or purple food coloring",
+      "1/2 cup water",
+      "Banana leaves, cut into squares",
+      "Grated coconut",
+      "Muscovado sugar",
+      "Butter or margarine"
+    ],
+    "steps": [
+      "Combine glutinous rice flour and ube powder in a bowl.",
+      "Gradually add water and mix until a dough forms.",
+      "Roll the dough into small logs that fit into bamboo tubes or molds.",
+      "Steam the dough in bamboo tubes or on banana leaves for about 3 to 5 minutes.",
+      "Remove from the steamer and spread with butter or margarine.",
+      "Serve on banana leaves topped with grated coconut and muscovado sugar."
+    ],
+    "main_ingredients": ["glutinous rice"]
+  },
+  {
+    "id": 38,
+    "name": "Empanada",
+    "description": "Pastry stuffed with meat, vegetables, and sometimes eggs.",
+    "ingredients": [
+      "For the dough:",
+      "3 cups all-purpose flour",
+      "1 teaspoon baking powder",
+      "1 teaspoon salt",
+      "1/2 cup cold butter, cubed",
+      "1/2 cup cold water",
+      "For the filling:",
+      "500 grams ground beef or pork",
+      "1 potato, diced",
+      "1 carrot, diced",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1/4 cup raisins",
+      "1/4 cup green peas",
+      "Salt and pepper to taste",
+      "Oil for sautéing",
+      "1 egg, beaten (for egg wash)"
+    ],
+    "steps": [
+      "Prepare the filling by sautéing garlic and onion in oil.",
+      "Add ground meat and cook until browned.",
+      "Add potatoes, carrots, raisins, and peas. Cook until vegetables are tender.",
+      "Season with salt and pepper. Cool the filling.",
+      "For the dough, mix flour, baking powder, and salt.",
+      "Cut in cold butter until mixture resembles coarse crumbs.",
+      "Add cold water gradually and mix until dough forms.",
+      "Knead gently, wrap in plastic, and refrigerate for 30 minutes.",
+      "Roll out the dough and cut into circles.",
+      "Place filling on one side of each circle, fold over, and seal the edges.",
+      "Brush with beaten egg.",
+      "Bake at 375°F (190°C) for 20 to 25 minutes or until golden brown.",
+      "Alternatively, deep-fry until golden."
+    ],
+    "main_ingredients": ["pork", "beef", "vegetables"]
+  },
+  {
+    "id": 39,
+    "name": "Pandesal",
+    "description": "Soft bread rolls commonly eaten for breakfast.",
+    "ingredients": [
+      "4 cups all-purpose flour",
+      "1/2 cup sugar",
+      "1 1/2 teaspoons salt",
+      "1 packet active dry yeast (2 1/4 teaspoons)",
+      "1 1/4 cups warm milk",
+      "1/4 cup melted butter",
+      "1 egg",
+      "Bread crumbs for coating"
+    ],
+    "steps": [
+      "In a small bowl, dissolve yeast in warm milk. Let stand until foamy.",
+      "In a large bowl, combine flour, sugar, and salt.",
+      "Add yeast mixture, melted butter, and egg to the dry ingredients.",
+      "Mix until a soft dough forms.",
+      "Knead the dough on a floured surface until smooth and elastic (about 10 minutes).",
+      "Place the dough in a greased bowl, cover, and let it rise until doubled in size.",
+      "Punch down the dough and divide into small portions. Shape each into a ball.",
+      "Roll each ball in bread crumbs and place on a baking sheet.",
+      "Cover and let rise again until doubled.",
+      "Bake in a preheated oven at 350°F (175°C) for 15 to 20 minutes or until golden brown.",
+      "Serve warm."
+    ],
+    "main_ingredients": ["all-purpose flour"]
+  },
+  {
+    "id": 40,
+    "name": "Ensaladang Talong",
+    "description": "Grilled eggplant salad with tomatoes and onions.",
+    "ingredients": [
+      "4 medium eggplants",
+      "2 tomatoes, diced",
+      "1 red onion, diced",
+      "1/4 cup vinegar",
+      "2 tablespoons fish sauce or salt to taste",
+      "1 teaspoon sugar (optional)",
+      "Ground black pepper to taste"
+    ],
+    "steps": [
+      "Grill or broil eggplants until skin is charred and flesh is soft.",
+      "Allow eggplants to cool, then peel off the skin.",
+      "Chop or mash the eggplant flesh and place in a bowl.",
+      "Add diced tomatoes and onions.",
+      "In a separate bowl, mix vinegar, fish sauce or salt, sugar, and black pepper.",
+      "Pour the dressing over the eggplant mixture and toss gently.",
+      "Adjust seasoning as needed.",
+      "Serve as a side dish or salad."
+    ],
+    "main_ingredients": ["eggplant", "tomatoes", "onions"]
+  },
+  {
+    "id": 41,
+    "name": "Bistek Tagalog",
+    "description": "Beef slices marinated in soy sauce and calamansi juice, topped with onions.",
+    "ingredients": [
+      "1 kg beef sirloin or flank steak, thinly sliced",
+      "1/2 cup soy sauce",
+      "1/4 cup calamansi juice (or lemon juice)",
+      "4 cloves garlic, minced",
+      "2 large onions, sliced into rings",
+      "1 teaspoon ground black pepper",
+      "2 tablespoons cooking oil",
+      "Water as needed",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a bowl, marinate beef slices in soy sauce, calamansi juice, minced garlic, and black pepper for at least 1 hour.",
+      "In a pan, heat oil and sauté onion rings until translucent. Remove and set aside.",
+      "In the same pan, fry the marinated beef slices until browned. Do this in batches if necessary.",
+      "Pour the marinade into the pan and add a little water if needed. Simmer until beef is tender.",
+      "Adjust seasoning with salt if necessary.",
+      "Top with sautéed onions before serving.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["beef", "soy sauce", "calamansi juice", "onions"]
+  },
+  {
+    "id": 42,
+    "name": "Leche Flan",
+    "description": "A rich custard dessert topped with caramelized sugar.",
+    "ingredients": [
+      "10 egg yolks",
+      "1 can (14 oz) condensed milk",
+      "1 can (12 oz) evaporated milk",
+      "1 teaspoon vanilla extract",
+      "1 cup sugar (for caramel)"
+    ],
+    "steps": [
+      "Prepare the caramel by melting sugar in a saucepan over low heat until golden brown.",
+      "Quickly pour the caramel into llanera molds or a baking dish, swirling to coat the bottom evenly. Set aside to cool.",
+      "In a bowl, gently whisk egg yolks to avoid creating bubbles.",
+      "Add condensed milk, evaporated milk, and vanilla extract. Mix until well combined.",
+      "Strain the mixture to remove any lumps.",
+      "Pour the custard mixture into the caramel-lined molds.",
+      "Cover molds with aluminum foil.",
+      "Steam over medium heat for about 30 to 35 minutes, or until set. Alternatively, bake in a water bath at 350°F (175°C) for about 45 minutes to 1 hour.",
+      "Let the flan cool before refrigerating.",
+      "To serve, run a knife around the edges and invert onto a serving plate."
+    ],
+    "main_ingredients": ["egg", "sugar", "condensed milk", "evaporated milk"]
+  },
+  {
+    "id": 43,
+    "name": "Palabok",
+    "description": "Rice noodles with shrimp sauce, topped with smoked fish flakes and chicharron.",
+    "ingredients": [
+      "500 grams rice noodles (bihon)",
+      "2 tablespoons annatto seeds",
+      "250 grams ground pork",
+      "200 grams shrimp, peeled and deveined",
+      "1/4 cup shrimp broth (from boiled shrimp shells)",
+      "1/4 cup fish sauce",
+      "4 cloves garlic, minced",
+      "1 onion, chopped",
+      "1/2 cup chicharron (pork cracklings), crushed",
+      "1/2 cup tinapa flakes (smoked fish)",
+      "2 hard-boiled eggs, sliced",
+      "Spring onions, chopped, for garnish",
+      "Calamansi or lemon wedges for serving",
+      "Cooking oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Soak annatto seeds in 1/2 cup hot water to extract color. Set aside.",
+      "Cook rice noodles according to package instructions. Drain and set aside.",
+      "In a pan, sauté garlic and onion until fragrant.",
+      "Add ground pork and cook until browned.",
+      "Add shrimp and cook until pink.",
+      "Pour in shrimp broth, annatto water (strained), and fish sauce.",
+      "In a small bowl, dissolve 1/4 cup cornstarch in 1/2 cup water. Add to the pan and stir until sauce thickens.",
+      "Season with salt and pepper.",
+      "Place noodles on a serving platter. Pour the sauce over the noodles.",
+      "Top with crushed chicharron, tinapa flakes, sliced eggs, and chopped spring onions.",
+      "Serve with calamansi or lemon wedges."
+    ],
+    "main_ingredients": ["noodles"]
+  },
+  {
+    "id": 44,
+    "name": "Lomi",
+    "description": "Thick egg noodle soup with pork, liver, and vegetables.",
+    "ingredients": [
+      "500 grams fresh lomi noodles",
+      "200 grams pork, sliced into strips",
+      "100 grams pork liver, sliced",
+      "1 cup shrimp, peeled and deveined",
+      "1 carrot, julienned",
+      "1 cup cabbage, shredded",
+      "1 onion, chopped",
+      "4 cloves garlic, minced",
+      "2 tablespoons soy sauce",
+      "6 cups pork or chicken broth",
+      "2 eggs, beaten",
+      "3 tablespoons cornstarch dissolved in 1/4 cup water",
+      "Spring onions, chopped, for garnish",
+      "Fish sauce or salt to taste",
+      "Cooking oil"
+    ],
+    "steps": [
+      "In a pot, heat oil and sauté garlic and onion until fragrant.",
+      "Add pork and cook until no longer pink.",
+      "Add liver and shrimp, cook for 2 minutes.",
+      "Pour in broth and bring to a boil.",
+      "Add lomi noodles and simmer for 5 minutes.",
+      "Add soy sauce and vegetables (carrots and cabbage). Cook until vegetables are tender.",
+      "Stir in cornstarch slurry to thicken the soup.",
+      "Slowly pour in beaten eggs while stirring gently to create egg strands.",
+      "Season with fish sauce or salt.",
+      "Serve hot, garnished with chopped spring onions."
+    ],
+    "main_ingredients": ["noodles", "pork", "vegetables"]
+  },
+  {
+    "id": 45,
+    "name": "Camote Cue",
+    "description": "Deep-fried sweet potatoes coated with caramelized brown sugar.",
+    "ingredients": [
+      "4 large sweet potatoes (camote), peeled and sliced thickly",
+      "1 cup brown sugar",
+      "Oil for deep frying",
+      "Bamboo skewers"
+    ],
+    "steps": [
+      "Heat oil in a deep pan suitable for frying.",
+      "Add brown sugar to the hot oil and allow it to melt slightly.",
+      "Carefully add sweet potato slices into the oil.",
+      "Fry until sweet potatoes are cooked and sugar sticks to them, about 8-10 minutes.",
+      "Stir occasionally to coat the slices evenly with caramelized sugar.",
+      "Remove from oil and let excess oil drip.",
+      "Skewer the sweet potato slices onto bamboo sticks.",
+      "Allow to cool slightly before serving."
+    ],
+    "main_ingredients": ["sweet potato"]
+  },
+  {
+    "id": 46,
+    "name": "Dinengdeng",
+    "description": "Vegetable dish with grilled fish and fermented fish sauce.",
+    "ingredients": [
+      "1 medium-sized grilled fish (e.g., bangus or tilapia), flaked",
+      "Assorted vegetables (e.g., squash flowers, eggplant, bitter melon, okra, string beans)",
+      "1 onion, sliced",
+      "2 tomatoes, sliced",
+      "1 thumb-sized ginger, sliced",
+      "2 cups water",
+      "2 tablespoons fermented fish sauce (bagoong isda)",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pot, bring water to a boil.",
+      "Add onions, tomatoes, and ginger. Simmer for 5 minutes.",
+      "Add fermented fish sauce to the broth.",
+      "Add harder vegetables first (e.g., eggplant, bitter melon) and cook until partially tender.",
+      "Add softer vegetables (e.g., squash flowers, okra, string beans) and cook until all vegetables are tender.",
+      "Add the flaked grilled fish and simmer for another 2 minutes.",
+      "Adjust seasoning with salt if necessary.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["vegetables", "fish"]
+  },
+  {
+    "id": 47,
+    "name": "Pinangat",
+    "description": "Fish or shrimp cooked in sour broth with tomatoes and tamarind.",
+    "ingredients": [
+      "500 grams fish (e.g., tilapia, mackerel) or shrimp",
+      "2 tomatoes, quartered",
+      "1 onion, sliced",
+      "2 cups tamarind broth or tamarind mix",
+      "2 cups water",
+      "Mustard leaves or kamias (optional)",
+      "2 green chilies (siling haba)",
+      "Salt or fish sauce to taste"
+    ],
+    "steps": [
+      "In a pot, combine water, tamarind broth, onions, and tomatoes. Bring to a boil.",
+      "Add the fish or shrimp to the pot.",
+      "Add mustard leaves or kamias if using.",
+      "Add green chilies.",
+      "Simmer until the fish or shrimp is cooked through.",
+      "Season with salt or fish sauce to taste.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["fish", "shrimp"]
+  },
+  {
+    "id": 48,
+    "name": "Chicken Adobo",
+    "description": "Chicken stewed in soy sauce, vinegar, and garlic.",
+    "ingredients": [
+      "1 kg chicken pieces",
+      "1/2 cup soy sauce",
+      "1/2 cup vinegar",
+      "6 cloves garlic, crushed",
+      "3 bay leaves",
+      "1 teaspoon black peppercorns",
+      "1 cup water",
+      "2 tablespoons cooking oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "In a pot, combine chicken, soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
+      "Pour in water and bring to a boil. Lower heat and simmer for about 30 minutes or until chicken is tender.",
+      "Remove the chicken pieces from the sauce.",
+      "In a separate pan, heat oil and fry the chicken until lightly browned.",
+      "Return the fried chicken to the sauce and simmer for another 10 minutes.",
+      "Adjust seasoning with salt if necessary.",
+      "Serve hot with steamed rice."
+    ],
+    "main_ingredients": ["chicken", "soy sauce", "vinegar", "garlic"]
+  },
+  {
+    "id": 49,
+    "name": "Pancit Palabok",
+    "description": "Rice noodles with a rich shrimp sauce and various toppings.",
+    "ingredients": [
+      "500 grams rice noodles (bihon)",
+      "250 grams ground pork",
+      "200 grams shrimp, peeled and deveined",
+      "1/2 cup annatto water (annatto seeds soaked in water)",
+      "1/4 cup fish sauce",
+      "4 cloves garlic, minced",
+      "1 onion, chopped",
+      "3 tablespoons cornstarch dissolved in 1/2 cup water",
+      "2 cups shrimp stock (from boiled shrimp shells)",
+      "Toppings:",
+      "Crushed chicharron (pork cracklings)",
+      "Tinapa flakes (smoked fish)",
+      "Hard-boiled eggs, sliced",
+      "Spring onions, chopped",
+      "Fried garlic bits",
+      "Lemon or calamansi wedges"
+    ],
+    "steps": [
+      "Cook rice noodles according to package instructions. Drain and set aside.",
+      "In a pan, sauté garlic and onion until fragrant.",
+      "Add ground pork and cook until browned.",
+      "Add shrimp and cook until pink.",
+      "Pour in shrimp stock, annatto water, and fish sauce. Bring to a boil.",
+      "Add cornstarch slurry and stir until sauce thickens.",
+      "Season with salt and pepper.",
+      "Place noodles on a serving platter and pour sauce over them.",
+      "Top with chicharron, tinapa flakes, sliced eggs, spring onions, and fried garlic bits.",
+      "Serve with lemon or calamansi wedges."
+    ],
+    "main_ingredients": ["noodles"]
+  },
+  {
+    "id": 50,
+    "name": "Nilagang Baka",
+    "description": "Beef stew with potatoes, cabbage, and vegetables.",
+    "ingredients": [
+      "1 kg beef shank or brisket, cut into chunks",
+      "2 liters water",
+      "1 onion, quartered",
+      "2 potatoes, peeled and quartered",
+      "1 corn on the cob, cut into pieces (optional)",
+      "1 bunch pechay (bok choy) or cabbage",
+      "1 tablespoon peppercorns",
+      "Fish sauce or salt to taste"
+    ],
+    "steps": [
+      "In a large pot, boil beef with water, onion, and peppercorns. Simmer until beef is tender (about 2 hours).",
+      "Skim off any scum that rises to the top.",
+      "Add potatoes and corn. Cook until vegetables are tender.",
+      "Season with fish sauce or salt.",
+      "Add pechay or cabbage and cook for another 2 minutes.",
+      "Serve hot with steamed rice and fish sauce with calamansi on the side."
+    ],
+    "main_ingredients": ["beef", "potato", "cabbage", "vegetables"]
+  }
+]
